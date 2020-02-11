@@ -1,0 +1,13 @@
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\topmult4bit00.vhd":9:7:9:19|Synthesizing work.topmult4bit00.topmult4bit0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\famu00.vhd":7:7:7:12|Synthesizing work.famu00.famu0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\ormu.vhd":6:7:6:10|Synthesizing work.ormu.orm.
+Post processing for work.ormu.orm
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\hamu00.vhd":7:7:7:12|Synthesizing work.hamu00.hamu0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\andmu.vhd":6:7:6:11|Synthesizing work.andmu.andm.
+Post processing for work.andmu.andm
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\xormu.vhd":6:7:6:11|Synthesizing work.xormu.xorm.
+Post processing for work.xormu.xorm
+Post processing for work.hamu00.hamu0
+Post processing for work.famu00.famu0
+@W: CL240 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\famu00.vhd":13:3:13:7|Signal Cmu01 is floating; a simulation mismatch is possible.
+Post processing for work.topmult4bit00.topmult4bit0

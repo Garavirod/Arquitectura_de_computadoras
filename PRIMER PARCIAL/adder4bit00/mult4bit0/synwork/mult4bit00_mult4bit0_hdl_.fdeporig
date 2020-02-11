@@ -1,0 +1,70 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|topmult4bit00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\mult4bit0\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501910110
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501933408
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493327504
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\xormu.vhd":1535466372
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\andmu.vhd":1535466399
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\ormu.vhd":1535466421
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\packagehamu00.vhd":1535466612
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\hamu00.vhd":1535467028
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\packagefamu00.vhd":1535467011
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\famu00.vhd":1535466980
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\packagemult4bit00.vhd":1535467321
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\topmult4bit00.vhd":1535990111
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\xormu.vhd" vhdl
+2 "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\andmu.vhd" vhdl
+3 "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\ormu.vhd" vhdl
+4 "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\packagehamu00.vhd" vhdl
+5 "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\hamu00.vhd" vhdl
+6 "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\packagefamu00.vhd" vhdl
+7 "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\famu00.vhd" vhdl
+8 "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\packagemult4bit00.vhd" vhdl
+9 "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\topmult4bit00.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 1 2 4 
+6 -1
+7 5 3 6 
+8 -1
+9 2 7 8 
+
+# Dependency Lists (Users Of)
+0 -1
+1 5 
+2 9 5 
+3 7 
+4 5 
+5 7 
+6 7 
+7 9 
+8 9 
+9 -1
+
+# Design Unit to File Association
+arch work xormu xorm 1
+module work xormu 1
+arch work andmu andm 2
+module work andmu 2
+arch work ormu orm 3
+module work ormu 3
+arch work hamu00 hamu0 5
+module work hamu00 5
+arch work famu00 famu0 7
+module work famu00 7
+arch work topmult4bit00 topmult4bit0 9
+module work topmult4bit00 9

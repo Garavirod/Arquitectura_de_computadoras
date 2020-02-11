@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.11_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/lscc/diamond/3.11_x64/bin/nt64/ARQUITECTURA/PRIMER\ PARCIAL/mux00/mux00.vhdl" 

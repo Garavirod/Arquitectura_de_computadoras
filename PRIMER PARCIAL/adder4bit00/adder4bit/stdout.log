@@ -1,0 +1,89 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    LAPTOP-ONJC2QMR
+Date:        Mon Aug 27 16:30:39 2018
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch adder4bit00_adder4bit_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\adder4bit00_adder4bit.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Mon Aug 27 16:30:43 2018
+
+Return Code: 0
+Run Time:00h:00m:02s
+log file: "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\adder4bit00_adder4bit.srr"
+Running: adder4bit in foreground
+
+Running proj_1|adder4bit
+
+Running: compile (Compile) on proj_1|adder4bit
+# Mon Aug 27 16:30:43 2018
+
+Running: compile_flow (Compile Process) on proj_1|adder4bit
+# Mon Aug 27 16:30:43 2018
+
+Running: compiler (Compile Input) on proj_1|adder4bit
+# Mon Aug 27 16:30:43 2018
+Copied C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\synwork\adder4bit00_adder4bit_comp.srs to C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\adder4bit00_adder4bit.srs
+
+compiler completed
+# Mon Aug 27 16:30:48 2018
+
+Return Code: 0
+Run Time:00h:00m:05s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|adder4bit
+# Mon Aug 27 16:30:48 2018
+
+multi_srs_gen completed
+# Mon Aug 27 16:30:48 2018
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\synwork\adder4bit00_adder4bit_mult.srs to C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\adder4bit00_adder4bit.srs
+Copied C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\adder4bit00_adder4bit.srr to C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\adder4bit00_adder4bit.srf
+Complete: Compile Process on proj_1|adder4bit
+
+Running: premap (Pre-mapping) on proj_1|adder4bit
+# Mon Aug 27 16:30:48 2018
+
+premap completed
+# Mon Aug 27 16:30:52 2018
+
+Return Code: 0
+Run Time:00h:00m:04s
+Complete: Compile on proj_1|adder4bit
+
+Running: map (Map) on proj_1|adder4bit
+# Mon Aug 27 16:30:52 2018
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|adder4bit
+# Mon Aug 27 16:30:52 2018
+Copied C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\synwork\adder4bit00_adder4bit_m.srm to C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\adder4bit00_adder4bit.srm
+
+fpga_mapper completed
+# Mon Aug 27 16:30:56 2018
+
+Return Code: 0
+Run Time:00h:00m:04s
+Complete: Map on proj_1|adder4bit
+Copied C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\adder4bit00_adder4bit.srr to C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\adder4bit00_adder4bit.srf
+Complete: Logic Synthesis on proj_1|adder4bit
+TCL script complete: "adder4bit00_adder4bit_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\adder4bit\proj_1.prj
+batch mode default:no

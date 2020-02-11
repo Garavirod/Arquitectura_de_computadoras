@@ -1,0 +1,99 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-P12ICFP
+
+Implementation : mux0
+
+# Written on Thu Jan 30 21:02:52 2020
+
+##### DESIGN INFO #######################################################
+
+Top View:                "mux00"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:Ax[0]
+p:Ax[1]
+p:Ax[2]
+p:Ax[3]
+p:Ax[4]
+p:Ax[5]
+p:Ax[6]
+p:Ax[7]
+p:Bx[0]
+p:Bx[1]
+p:Bx[2]
+p:Bx[3]
+p:Bx[4]
+p:Bx[5]
+p:Bx[6]
+p:Bx[7]
+p:Sx[0]
+p:Sx[1]
+p:Sx[2]
+p:Yx[0]
+p:Yx[1]
+p:Yx[2]
+p:Yx[3]
+p:Yx[4]
+p:Yx[5]
+p:Yx[6]
+p:Yx[7]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

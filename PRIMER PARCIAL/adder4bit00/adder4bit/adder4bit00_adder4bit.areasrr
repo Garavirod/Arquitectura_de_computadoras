@@ -1,0 +1,179 @@
+----------------------------------------------------------------------
+Report for cell topadder4bit00.topadder4bit0
+
+Register bits: 0 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       14
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB        9       100.0
+                                 OB        5       100.0
+                           ORCALUT4       10       100.0
+                                PUR        1       100.0
+                                VHI       14       100.0
+                                VLO       14       100.0
+SUB MODULES 
+                          andadd_10        1       100.0
+                           andadd_7        1       100.0
+                           andadd_8        1       100.0
+                           andadd_9        1       100.0
+                               fa00        1       100.0
+                             fa00_0        1       100.0
+                             fa00_1        1       100.0
+                              oradd        1       100.0
+                            oradd_0        1       100.0
+                            oradd_1        1       100.0
+                            xnoradd        1       100.0
+                           xoradd_0        1       100.0
+                           xoradd_1        1       100.0
+                            
+                         TOTAL            67           
+----------------------------------------------------------------------
+Report for cell xnoradd.netlist
+     Instance path:  AD12
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         7.1
+                                VLO        1         7.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell andadd_10.netlist
+  Original Cell name andadd
+     Instance path:  AD11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         7.1
+                                VLO        1         7.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell andadd_9.netlist
+  Original Cell name andadd
+     Instance path:  AD10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         7.1
+                                VLO        1         7.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell andadd_8.netlist
+  Original Cell name andadd
+     Instance path:  AD09
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         7.1
+                                VLO        1         7.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell andadd_7.netlist
+  Original Cell name andadd
+     Instance path:  AD08
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         7.1
+                                VLO        1         7.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell fa00_1.netlist
+  Original Cell name fa00
+     Instance path:  AD06
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        2        14.3
+                                VLO        2        14.3
+SUB MODULES 
+                            oradd_1        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell oradd_1.netlist
+  Original Cell name oradd
+     Instance path:  AD06.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         7.1
+                                VLO        1         7.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell fa00_0.netlist
+  Original Cell name fa00
+     Instance path:  AD05
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        2        14.3
+                                VLO        2        14.3
+SUB MODULES 
+                            oradd_0        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell oradd_0.netlist
+  Original Cell name oradd
+     Instance path:  AD05.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         7.1
+                                VLO        1         7.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell fa00.netlist
+  Original Cell name fa00
+     Instance path:  AD04
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        2        14.3
+                                VLO        2        14.3
+SUB MODULES 
+                              oradd        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell oradd.netlist
+  Original Cell name oradd
+     Instance path:  AD04.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         7.1
+                                VLO        1         7.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xoradd_1.netlist
+  Original Cell name xoradd
+     Instance path:  AD02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         7.1
+                                VLO        1         7.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xoradd_0.netlist
+  Original Cell name xoradd
+     Instance path:  AD01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         7.1
+                                VLO        1         7.1
+                            
+                         TOTAL             3           

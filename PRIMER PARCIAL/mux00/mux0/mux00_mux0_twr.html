@@ -1,0 +1,332 @@
+<HTML>
+<HEAD><TITLE>Lattice TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Par_Twr"></A><B><U><big>Place & Route TRACE Report</big></U></B>
+
+Loading design for application trce from file mux00_mux0.ncd.
+Design name: mux00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Par_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4</big></U></B>
+Thu Jan 30 21:23:59 2020
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="ptwr_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o mux00_mux0.twr -gui -msgset C:/lscc/diamond/3.11_x64/bin/nt64/ARQUITECTURA/PRIMER PARCIAL/mux00/promote.xml mux00_mux0.ncd mux00_mux0.prf 
+Design file:     mux00_mux0.ncd
+Preference file: mux00_mux0.prf
+Device,speed:    LCMXO2-7000HE,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+<A name="ptwr_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#par_twr_pref_0_0' Target='right'>Default path enumeration(0 errors)</A></LI>            72 items scored, 0 timing errors detected.
+
+<LI><A href='#par_twr_pref_0_1' Target='right'>Default net enumeration(0 errors)</A></LI>            27 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="par_twr_pref_0_0"></A>Preference: Default path enumeration
+            72 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:   12.419ns delay Sx[2] to Yx[3]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          3.PAD to        3.PADDI Sx[2]
+ROUTE        16     2.778        3.PADDI to      R11C2A.B1 Sx_c[2]
+CTOOFX_DEL  ---     0.661      R11C2A.B1 to    R11C2A.OFX0 Yx_7[3]/SLICE_4
+ROUTE         1     4.160    R11C2A.OFX0 to       94.PADDO Yx_c[3]
+DOPAD_DEL   ---     3.448       94.PADDO to         94.PAD Yx[3]
+                  --------
+                   12.419   (44.1% logic, 55.9% route), 3 logic levels.
+
+Report:   12.419ns delay Sx[2] to Yx[3]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          3.PAD to        3.PADDI Sx[2]
+ROUTE        16     2.778        3.PADDI to      R11C2A.B0 Sx_c[2]
+CTOOFX_DEL  ---     0.661      R11C2A.B0 to    R11C2A.OFX0 Yx_7[3]/SLICE_4
+ROUTE         1     4.160    R11C2A.OFX0 to       94.PADDO Yx_c[3]
+DOPAD_DEL   ---     3.448       94.PADDO to         94.PAD Yx[3]
+                  --------
+                   12.419   (44.1% logic, 55.9% route), 3 logic levels.
+
+Report:   12.300ns delay Bx[5] to Yx[5]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372        133.PAD to      133.PADDI Bx[5]
+ROUTE         2     2.993      133.PADDI to       R9C3B.D1 Bx_c[5]
+CTOOFX_DEL  ---     0.661       R9C3B.D1 to     R9C3B.OFX0 Yx_7[5]/SLICE_6
+ROUTE         1     3.826     R9C3B.OFX0 to       95.PADDO Yx_c[5]
+DOPAD_DEL   ---     3.448       95.PADDO to         95.PAD Yx[5]
+                  --------
+                   12.300   (44.6% logic, 55.4% route), 3 logic levels.
+
+Report:   12.300ns delay Bx[5] to Yx[5]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372        133.PAD to      133.PADDI Bx[5]
+ROUTE         2     2.993      133.PADDI to       R9C3B.D0 Bx_c[5]
+CTOOFX_DEL  ---     0.661       R9C3B.D0 to     R9C3B.OFX0 Yx_7[5]/SLICE_6
+ROUTE         1     3.826     R9C3B.OFX0 to       95.PADDO Yx_c[5]
+DOPAD_DEL   ---     3.448       95.PADDO to         95.PAD Yx[5]
+                  --------
+                   12.300   (44.6% logic, 55.4% route), 3 logic levels.
+
+Report:   12.285ns delay Ax[0] to Yx[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI Ax[0]
+ROUTE         2     2.610        5.PADDI to      R11C2B.B1 Ax_c[0]
+CTOOFX_DEL  ---     0.661      R11C2B.B1 to    R11C2B.OFX0 Yx_7[0]/SLICE_1
+ROUTE         1     4.194    R11C2B.OFX0 to       91.PADDO Yx_c[0]
+DOPAD_DEL   ---     3.448       91.PADDO to         91.PAD Yx[0]
+                  --------
+                   12.285   (44.6% logic, 55.4% route), 3 logic levels.
+
+Report:   12.285ns delay Ax[0] to Yx[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI Ax[0]
+ROUTE         2     2.610        5.PADDI to      R11C2B.B0 Ax_c[0]
+CTOOFX_DEL  ---     0.661      R11C2B.B0 to    R11C2B.OFX0 Yx_7[0]/SLICE_1
+ROUTE         1     4.194    R11C2B.OFX0 to       91.PADDO Yx_c[0]
+DOPAD_DEL   ---     3.448       91.PADDO to         91.PAD Yx[0]
+                  --------
+                   12.285   (44.6% logic, 55.4% route), 3 logic levels.
+
+Report:   12.116ns delay Bx[6] to Yx[6]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         24.PAD to       24.PADDI Bx[6]
+ROUTE         2     2.275       24.PADDI to      R10C2C.A1 Bx_c[6]
+CTOOFX_DEL  ---     0.661      R10C2C.A1 to    R10C2C.OFX0 Yx_7[6]/SLICE_7
+ROUTE         1     4.360    R10C2C.OFX0 to       98.PADDO Yx_c[6]
+DOPAD_DEL   ---     3.448       98.PADDO to         98.PAD Yx[6]
+                  --------
+                   12.116   (45.2% logic, 54.8% route), 3 logic levels.
+
+Report:   12.116ns delay Bx[6] to Yx[6]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         24.PAD to       24.PADDI Bx[6]
+ROUTE         2     2.275       24.PADDI to      R10C2C.A0 Bx_c[6]
+CTOOFX_DEL  ---     0.661      R10C2C.A0 to    R10C2C.OFX0 Yx_7[6]/SLICE_7
+ROUTE         1     4.360    R10C2C.OFX0 to       98.PADDO Yx_c[6]
+DOPAD_DEL   ---     3.448       98.PADDO to         98.PAD Yx[6]
+                  --------
+                   12.116   (45.2% logic, 54.8% route), 3 logic levels.
+
+Report:   12.113ns delay Sx[0] to Yx[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          1.PAD to        1.PADDI Sx[0]
+ROUTE         8     2.754        1.PADDI to      R11C2B.M0 Sx_c[0]
+MTOOFX_DEL  ---     0.345      R11C2B.M0 to    R11C2B.OFX0 Yx_7[0]/SLICE_1
+ROUTE         1     4.194    R11C2B.OFX0 to       91.PADDO Yx_c[0]
+DOPAD_DEL   ---     3.448       91.PADDO to         91.PAD Yx[0]
+                  --------
+                   12.113   (42.6% logic, 57.4% route), 3 logic levels.
+
+Report:   12.103ns delay Bx[7] to Yx[7]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         23.PAD to       23.PADDI Bx[7]
+ROUTE         2     2.325       23.PADDI to      R10C2A.C1 Bx_c[7]
+CTOOFX_DEL  ---     0.661      R10C2A.C1 to    R10C2A.OFX0 Yx_7[7]/SLICE_0
+ROUTE         1     4.297    R10C2A.OFX0 to       97.PADDO Yx_c[7]
+DOPAD_DEL   ---     3.448       97.PADDO to         97.PAD Yx[7]
+                  --------
+                   12.103   (45.3% logic, 54.7% route), 3 logic levels.
+
+Report:   12.419ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="par_twr_pref_0_1"></A>Preference: Default net enumeration
+            27 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    4.360ns maximum delay on Yx_c[6]
+
+           Delays             Connection(s)
+           4.360ns      R10C2C.OFX0 to 98.PADDO        
+
+Report:    4.297ns maximum delay on Yx_c[7]
+
+           Delays             Connection(s)
+           4.297ns      R10C2A.OFX0 to 97.PADDO        
+
+Report:    4.194ns maximum delay on Yx_c[0]
+
+           Delays             Connection(s)
+           4.194ns      R11C2B.OFX0 to 91.PADDO        
+
+Report:    4.160ns maximum delay on Yx_c[3]
+
+           Delays             Connection(s)
+           4.160ns      R11C2A.OFX0 to 94.PADDO        
+
+Report:    3.844ns maximum delay on Yx_c[2]
+
+           Delays             Connection(s)
+           3.844ns      R11C2C.OFX0 to 93.PADDO        
+
+Report:    3.844ns maximum delay on Yx_c[1]
+
+           Delays             Connection(s)
+           3.844ns      R11C2D.OFX0 to 92.PADDO        
+
+Report:    3.826ns maximum delay on Yx_c[5]
+
+           Delays             Connection(s)
+           3.826ns       R9C3B.OFX0 to 95.PADDO        
+
+Report:    3.476ns maximum delay on Yx_c[4]
+
+           Delays             Connection(s)
+           3.476ns       R9C3D.OFX0 to 96.PADDO        
+
+Report:    2.993ns maximum delay on Bx_c[5]
+
+           Delays             Connection(s)
+           2.993ns        133.PADDI to R9C3B.D1        
+           2.993ns        133.PADDI to R9C3B.D0        
+
+Report:    2.778ns maximum delay on Sx_c[2]
+
+           Delays             Connection(s)
+           2.027ns          3.PADDI to R10C2C.D1       
+           2.027ns          3.PADDI to R10C2C.D0       
+           2.729ns          3.PADDI to R9C3B.A1        
+           2.729ns          3.PADDI to R9C3B.A0        
+           2.365ns          3.PADDI to R9C3D.A1        
+           2.365ns          3.PADDI to R9C3D.A0        
+           2.778ns          3.PADDI to R11C2A.B1       
+           2.778ns          3.PADDI to R11C2A.B0       
+           2.552ns          3.PADDI to R11C2C.C1       
+           2.552ns          3.PADDI to R11C2C.C0       
+           2.383ns          3.PADDI to R11C2D.A1       
+           2.383ns          3.PADDI to R11C2D.A0       
+           2.188ns          3.PADDI to R11C2B.C1       
+           2.188ns          3.PADDI to R11C2B.C0       
+           2.004ns          3.PADDI to R10C2A.B1       
+           2.004ns          3.PADDI to R10C2A.B0       
+
+Report:    4.360ns is the maximum delay for this preference.
+
+<A name="ptwr_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+Default path enumeration                |     0.000 ns|    12.419 ns|   0  
+                                        |             |             |
+Default net enumeration                 |     0.000 ns|     4.360 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="ptwr_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 0 clocks:
+
+
+<A name="ptwr_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 72 paths, 27 nets, and 80 connections (100.00% coverage)
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

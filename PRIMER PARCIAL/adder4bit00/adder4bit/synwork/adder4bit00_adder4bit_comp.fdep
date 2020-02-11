@@ -1,0 +1,73 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\adder4bit\\synwork\\adder4bit00_adder4bit_comp.srs|-top|topadder4bit00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501910110
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501933408
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493327504
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\xoradd.vhd":1535404987
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\cpld\\lattice.vhd":1501914216
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\andadd.vhd":1535058680
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\packageha00.vhd":1535058260
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\oradd.vhd":1535059592
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\packagefa00.vhd":1535059847
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\xnoradd.vhd":1535402769
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\packageadder4bit00.vhd":1535404891
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\ha00.vhd":1535059083
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\fa00.vhd":1535060654
+#CUR:"C:\\Users\\James\\Documents\\ESCOM_SEMESTRE_6\\3CM2_ARQUITECTURA\\Project3CM2MachX02\\adder4bit00\\topadder4bit00.vhd":1535405178
+0			"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1			"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\xoradd.vhd" vhdl
+2			"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\andadd.vhd" vhdl
+3			"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\packageha00.vhd" vhdl
+4			"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\oradd.vhd" vhdl
+5			"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\packagefa00.vhd" vhdl
+6			"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\xnoradd.vhd" vhdl
+7			"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\packageadder4bit00.vhd" vhdl
+8			"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\ha00.vhd" vhdl
+9			"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\fa00.vhd" vhdl
+10			"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\topadder4bit00.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 3 2 1
+9 5 4 8
+10 7 6 2 9 1
+#Dependency Lists(Users Of)
+0 -1
+1 8 10
+2 8 10
+3 8
+4 9
+5 9
+6 10
+7 10
+8 9
+9 10
+10 -1
+#Design Unit to File Association
+module work topadder4bit00 10
+arch work topadder4bit00 topadder4bit0 10
+module work fa00 9
+arch work fa00 fa0 9
+module work ha00 8
+arch work ha00 ha0 8
+module work xnoradd 6
+arch work xnoradd xnorad 6
+module work oradd 4
+arch work oradd orad 4
+module work andadd 2
+arch work andadd andad 2
+module work xoradd 1
+arch work xoradd xorad 1

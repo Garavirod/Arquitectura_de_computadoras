@@ -1,0 +1,6 @@
+#Start recording tcl command: 2/22/2019 11:58:56
+#Project Location: G:/mult4bit00; Project name: mult4bit00
+prj_project open "G:/mult4bit00/mult4bit00.ldf"
+prj_src add "G:/fa00vhd/and00.vhdl" "G:/fa00vhd/fa00.vhdl" "G:/fa00vhd/ha00.vhdl" "G:/fa00vhd/or.vhdl" "G:/fa00vhd/packagefa00.vhdl" "G:/fa00vhd/packageha00.vhdl" "G:/fa00vhd/xor.vhdl"
+prj_run Export -impl mult4bit00 -task Jedecgen
+#Stop recording: 2/22/2019 12:00:20

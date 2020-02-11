@@ -1,0 +1,249 @@
+
+synpwrap -msg -prj "mult4bit00_mult4bit0_synplify.tcl" -log "mult4bit00_mult4bit0.srf"
+Copyright (C) 1992-2017 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.10.0.111.2
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of mult4bit00_mult4bit0.srf
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-ONJC2QMR
+
+# Mon Sep  3 10:58:13 2018
+
+#Implementation: mult4bit0
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\topmult4bit00.vhd":9:7:9:19|Top entity is set to topmult4bit00.
+File C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\andmu.vhd changed - recompiling
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\ormu.vhd changed - recompiling
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\packagehamu00.vhd changed - recompiling
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\packagefamu00.vhd changed - recompiling
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\packagemult4bit00.vhd changed - recompiling
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\hamu00.vhd changed - recompiling
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\famu00.vhd changed - recompiling
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\topmult4bit00.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\topmult4bit00.vhd changed - recompiling
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\topmult4bit00.vhd":9:7:9:19|Synthesizing work.topmult4bit00.topmult4bit0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\famu00.vhd":7:7:7:12|Synthesizing work.famu00.famu0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\ormu.vhd":6:7:6:10|Synthesizing work.ormu.orm.
+Post processing for work.ormu.orm
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\hamu00.vhd":7:7:7:12|Synthesizing work.hamu00.hamu0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\andmu.vhd":6:7:6:11|Synthesizing work.andmu.andm.
+Post processing for work.andmu.andm
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\xormu.vhd":6:7:6:11|Synthesizing work.xormu.xorm.
+Post processing for work.xormu.xorm
+Post processing for work.hamu00.hamu0
+Post processing for work.famu00.famu0
+@W: CL240 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\famu00.vhd":13:3:13:7|Signal Cmu01 is floating; a simulation mismatch is possible.
+Post processing for work.topmult4bit00.topmult4bit0
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep  3 10:58:15 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\mult4bit0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep  3 10:58:16 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep  3 10:58:16 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\mult4bit0\synwork\mult4bit00_mult4bit0_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep  3 10:58:18 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Sep  3 10:58:19 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\mult4bit0\mult4bit00_mult4bit0_scck.rpt 
+Printing clock  summary report in "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\mult4bit0\mult4bit00_mult4bit0_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_0(hamu0)) of type view:work.andmu_16_0(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_1(hamu0)) of type view:work.andmu_0_2(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_3(hamu0)) of type view:work.andmu_0_4(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_6(hamu0)) of type view:work.andmu_0_5(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_5(hamu0)) of type view:work.andmu_0_6(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":18:1:18:3|Removing instance H00 (in view: work.hamu00_1_5(hamu0)) of type view:work.xormu_1_7(xorm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":21:1:21:4|Removing instance FA01 (in view: work.famu00_8(famu0)) of type view:work.hamu00_1_5(hamu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":22:1:22:4|Removing instance FA02 (in view: work.famu00_8(famu0)) of type view:work.ormu_3(orm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_7(hamu0)) of type view:work.andmu_0_8(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_9(hamu0)) of type view:work.andmu_0_10(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_12(hamu0)) of type view:work.andmu_0_11(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_11(hamu0)) of type view:work.andmu_0_12(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":18:1:18:3|Removing instance H00 (in view: work.hamu00_1_11(hamu0)) of type view:work.xormu_1_13(xorm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":21:1:21:4|Removing instance FA01 (in view: work.famu00_5(famu0)) of type view:work.hamu00_1_11(hamu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":22:1:22:4|Removing instance FA02 (in view: work.famu00_5(famu0)) of type view:work.ormu_6(orm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_14(hamu0)) of type view:work.andmu_0_13(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_13(hamu0)) of type view:work.andmu_0_14(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":18:1:18:3|Removing instance H00 (in view: work.hamu00_1_13(hamu0)) of type view:work.xormu_1_15(xorm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":21:1:21:4|Removing instance FA01 (in view: work.famu00_4(famu0)) of type view:work.hamu00_1_13(hamu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":22:1:22:4|Removing instance FA02 (in view: work.famu00_4(famu0)) of type view:work.ormu_7(orm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_15(hamu0)) of type view:work.andmu_0_16(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_18(hamu0)) of type view:work.andmu_0_17(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_17(hamu0)) of type view:work.andmu_0_18(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":18:1:18:3|Removing instance H00 (in view: work.hamu00_1_17(hamu0)) of type view:work.xormu_1_19(xorm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":21:1:21:4|Removing instance FA01 (in view: work.famu00_2(famu0)) of type view:work.hamu00_1_17(hamu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":22:1:22:4|Removing instance FA02 (in view: work.famu00_2(famu0)) of type view:work.ormu_9(orm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_20(hamu0)) of type view:work.andmu_0_19(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_19(hamu0)) of type view:work.andmu_0_20(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":18:1:18:3|Removing instance H00 (in view: work.hamu00_1_19(hamu0)) of type view:work.xormu_1_21(xorm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":21:1:21:4|Removing instance FA01 (in view: work.famu00_1(famu0)) of type view:work.hamu00_1_19(hamu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":22:1:22:4|Removing instance FA02 (in view: work.famu00_1(famu0)) of type view:work.ormu_10(orm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_22(hamu0)) of type view:work.andmu_0_21(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_21(hamu0)) of type view:work.andmu_0_22(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\hamu00.vhd":18:1:18:3|Removing instance H00 (in view: work.hamu00_1_21(hamu0)) of type view:work.xormu_1_22(xorm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":21:1:21:4|Removing instance FA01 (in view: work.famu00_0(famu0)) of type view:work.hamu00_1_21(hamu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\famu00.vhd":22:1:22:4|Removing instance FA02 (in view: work.famu00_0(famu0)) of type view:work.ormu_11(orm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":105:1:105:3|Removing instance M11 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.famu00_8(famu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":160:1:160:3|Removing instance M18 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.famu00_5(famu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":169:1:169:3|Removing instance M19 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.famu00_4(famu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":215:1:215:3|Removing instance M25 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.famu00_2(famu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":224:1:224:3|Removing instance M26 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.famu00_1(famu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":233:1:233:3|Removing instance M27 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.famu00_0(famu0) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":71:1:71:3|Removing instance M07 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.andmu_9(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":128:1:128:3|Removing instance M14 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.andmu_6(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":135:1:135:3|Removing instance M15 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.andmu_5(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":185:1:185:3|Removing instance M21 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.andmu_3(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":192:1:192:3|Removing instance M22 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.andmu_2(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":199:1:199:3|Removing instance M23 (in view: work.topmult4bit00(topmult4bit0)) of type view:work.andmu_1(andm) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist topmult4bit00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Mon Sep  3 10:58:21 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Sep  3 10:58:22 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@A: BN321 |Found multiple drivers on net Rm[1] (in view: work.topmult4bit00(topmult4bit0)); if one driver is a constant (true or false), use Resolve Mixed Drivers option to connect the net to VCC or GND.
+@E: Net Rm[1] (in view: work.topmult4bit00(topmult4bit0)) has conflicting drivers, the connections are
+Connection 1: Direction is (Output ) pin:Cmu0 inst:M08.FA00 of work.hamu00_6(hamu0)
+Connection 2: Direction is (Output ) pin:Smu0 inst:M08.FA00 of work.hamu00_6(hamu0)
+@E: BN314 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\adder4bit00\topmult4bit00.vhd":9:7:9:19|Net Rm[1] (in view: work.topmult4bit00(topmult4bit0)) has multiple drivers 
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep  3 10:58:23 2018
+
+###########################################################]
+
+
+Synthesis exit by 9.

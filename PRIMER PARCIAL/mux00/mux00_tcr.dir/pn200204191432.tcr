@@ -1,0 +1,6 @@
+#Start recording tcl command: 2/4/2020 18:06:37
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/ARQUITECTURA/PRIMER PARCIAL/mux00; Project name: mux00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/ARQUITECTURA/PRIMER PARCIAL/mux00/mux00.ldf"
+prj_project save
+prj_project close
+#Stop recording: 2/4/2020 19:14:32

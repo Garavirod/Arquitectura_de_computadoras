@@ -1,0 +1,6 @@
+#Start recording tcl command: 1/27/2020 20:22:31
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/ARQUITECTURA/PRIMER PARCIAL/P1; Project name: and00
+prj_project new -name "and00" -impl "and0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_project close
+#Stop recording: 1/27/2020 22:09:31

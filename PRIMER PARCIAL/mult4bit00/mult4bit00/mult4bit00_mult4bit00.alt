@@ -1,0 +1,24 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Feb 11 14:40:05 2020 *
+NOTE DESIGN NAME: mult4bit00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Rm[0] : 41 : out *
+NOTE PINS Am[0] : 10 : in *
+NOTE PINS Rm[7] : 49 : out *
+NOTE PINS Rm[6] : 47 : out *
+NOTE PINS Rm[5] : 45 : out *
+NOTE PINS Rm[4] : 43 : out *
+NOTE PINS Rm[3] : 42 : out *
+NOTE PINS Rm[2] : 44 : out *
+NOTE PINS Rm[1] : 39 : out *
+NOTE PINS Bm[3] : 19 : in *
+NOTE PINS Bm[2] : 20 : in *
+NOTE PINS Bm[1] : 21 : in *
+NOTE PINS Bm[0] : 22 : in *
+NOTE PINS Am[3] : 5 : in *
+NOTE PINS Am[2] : 6 : in *
+NOTE PINS Am[1] : 9 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topmult4bit00  -multisrs  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\mult4bit0\synwork\mult4bit00_mult4bit0_comp.srs  -osyn  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\mult4bit0\synwork\mult4bit00_mult4bit0_mult.srs  -log  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bit00\mult4bit0\synlog\mult4bit00_mult4bit0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topmult4bit00 -multisrs ..\synwork\mult4bit00_mult4bit0_comp.srs -osyn ..\synwork\mult4bit00_mult4bit0_mult.srs -log ..\synlog\mult4bit00_mult4bit0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\mult4bit00_mult4bit0_comp.srs|io:i|time:1535990296|size:5987|exec:0|csum:DD6B44D6DB16C3B8A46C1C397CF48514
+file:..\synwork\mult4bit00_mult4bit0_mult.srs|io:o|time:1535990298|size:3290|exec:0|csum:
+file:..\synlog\mult4bit00_mult4bit0_multi_srs_gen.srr|io:o|time:1535990298|size:576|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501910190|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7
