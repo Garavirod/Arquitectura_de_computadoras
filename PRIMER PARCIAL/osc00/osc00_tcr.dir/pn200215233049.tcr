@@ -1,0 +1,20 @@
+#Start recording tcl command: 2/15/2020 23:05:41
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/osc00; Project name: osc00
+C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00
+shiftLR00
+#Start recording tcl command: 2/15/2020 23:30:49
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00; Project name: shiftLR00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/osc00/osc00.ldf"
+prj_run Export -impl osc0 -task Jedecgen
+prj_run Export -impl osc0 -task Jedecgen
+pgr_project save "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/osc00/osc0/osc0.xcf"
+prj_src add -exclude "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/osc00/osc0/osc0.xcf"
+prj_src enable "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/osc00/osc0/osc0.xcf"
+pgr_program set -cable 
+pgr_program run
+pgr_project save "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/osc00/osc0/osc0.xcf"
+prj_project save
+prj_project close
+prj_project new -name "shiftLR00" -impl "shiftLR0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+#Stop recording: 2/15/2020 23:30:49
