@@ -1,0 +1,2 @@
+@W: CD326 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\oscint00.vhdl":31:1:31:8|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+
