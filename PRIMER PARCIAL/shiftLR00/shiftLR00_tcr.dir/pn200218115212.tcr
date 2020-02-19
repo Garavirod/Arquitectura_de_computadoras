@@ -1,0 +1,7 @@
+#Start recording tcl command: 2/18/2020 10:34:07
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00; Project name: shiftLR00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/shiftLR00.ldf"
+prj_src add "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/packageshiftRL00.vhdl"
+prj_src add "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/topshiftRL00.vhdl"
+prj_run Export -impl shiftLR0 -task Jedecgen
+#Stop recording: 2/18/2020 11:52:12
