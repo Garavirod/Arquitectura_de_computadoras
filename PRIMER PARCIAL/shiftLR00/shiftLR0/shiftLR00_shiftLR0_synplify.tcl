@@ -15,7 +15,7 @@ set_option -resource_sharing true
 set_option -vlog_std v2001
 
 #map options
-set_option -frequency 100
+set_option -frequency auto
 set_option -maxfan 1000
 set_option -auto_constrain_io 0
 set_option -disable_io_insertion false
@@ -23,7 +23,7 @@ set_option -retiming false; set_option -pipe true
 set_option -force_gsr false
 set_option -compiler_compatible 0
 set_option -dup false
-
+set_option -frequency 1
 set_option -default_enum_encoding default
 
 #simulation options
@@ -45,19 +45,19 @@ set_option -resolve_multiple_driver 0
 
 #-- add_file options
 add_file -vhdl {C:/lscc/diamond/3.11_x64/cae_library/synthesis/vhdl/machxo2.vhd}
-add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/oscint00.vhdl}
-add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/div00.vhdl}
-add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/packageosc00.vhdl}
-add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/osc00.vhdl}
-add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/shiftLR00.vhdl}
-add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/packageshiftRL00.vhdl}
-add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/topshiftRL00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/div00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/osc00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/packagediv00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/topdiv00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/packageshiftLR00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/topshifLR00.vhdl}
 
 #-- top module name
-set_option -top_module topshiftRL00
+set_option -top_module topshiftLR00
 
 #-- set result format/file last
-project -result_file {C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/shiftLR0/shiftLR00_shiftLR0.edi}
+project -result_file {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR0/shiftLR00_shiftLR0.edi}
 
 #-- error message log file
 project -log_file {shiftLR00_shiftLR0.srf}

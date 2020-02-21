@@ -11,16 +11,18 @@ OS: Windows 6.2
 
 Hostname: DESKTOP-P12ICFP
 
-Database state : C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR0\synwork\|shiftLR0
+Database state : C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\shiftLR0\synwork\|shiftLR0
 Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
+File C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Feb 18 11:20:02 2020
+# Thu Feb 20 22:59:41 2020
 
 ###########################################################]

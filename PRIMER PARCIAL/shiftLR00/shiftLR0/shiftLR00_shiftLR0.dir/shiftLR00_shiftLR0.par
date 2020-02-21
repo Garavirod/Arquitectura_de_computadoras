@@ -4,12 +4,11 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Feb 18 11:20:32 2020
+Thu Feb 20 23:10:44 2020
 
 C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f shiftLR00_shiftLR0.p2t
 shiftLR00_shiftLR0_map.ncd shiftLR00_shiftLR0.dir shiftLR00_shiftLR0.prf -gui
--msgset
-C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftLR00/promote.xml
+-msgset C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/promote.xml
 
 
 Preference file: shiftLR00_shiftLR0.prf.
@@ -17,11 +16,11 @@ Preference file: shiftLR00_shiftLR0.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            467.997      0            0.379        0            50           Completed
+5_1   *      0            465.796      0            0.379        0            26           Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 50 secs 
+Total (real) run time for 1-seed: 27 secs 
 
 par done!
 

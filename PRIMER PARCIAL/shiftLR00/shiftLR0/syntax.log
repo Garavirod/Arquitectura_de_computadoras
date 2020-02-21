@@ -15,13 +15,13 @@ Implementation : shiftLR0
 Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
-@N:"C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\topshiftRL00.vhdl":7:7:7:18|Top entity is set to topshiftRL00.
+@N:"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\topshifLR00.vhdl":7:7:7:18|Top entity is set to topshiftLR00.
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 74MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Feb 18 11:19:54 2020
+# Thu Feb 20 22:59:35 2020
 
 ###########################################################]

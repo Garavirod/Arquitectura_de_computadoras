@@ -32,37 +32,46 @@ Implementation : shiftLR0
 Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
-@N:"C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\topshiftRL00.vhdl":7:7:7:18|Top entity is set to topshiftRL00.
+@N:"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\topshifLR00.vhdl":7:7:7:18|Top entity is set to topshiftLR00.
+Options changed - recompiling
 VHDL syntax check successful!
-@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\topshiftRL00.vhdl":7:7:7:18|Synthesizing work.topshiftrl00.topshiftrl0.
-@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR00.vhdl":9:7:9:15|Synthesizing work.shiftlr00.shiftlr0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\topshifLR00.vhdl":7:7:7:18|Synthesizing work.topshiftlr00.topshiftlr0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\shiftLR00.vhdl":6:7:6:15|Synthesizing work.shiftlr00.shiftlr0.
 Post processing for work.shiftlr00.shiftlr0
 Running optimization stage 1 on shiftLR00 .......
-@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
-@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":36:6:36:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":44:6:44:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":52:6:52:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":60:6:60:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":68:6:68:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":76:6:76:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":84:6:84:11|Removing redundant assignment.
 Post processing for work.div00.div0
 Running optimization stage 1 on div00 .......
-@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\oscint00.vhdl":13:7:13:14|Synthesizing work.oscint00.oscint0.
-@W: CD326 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\oscint00.vhdl":31:1:31:8|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD326 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl":23:1:23:8|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
 @N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
 Running optimization stage 1 on OSCH .......
-Post processing for work.oscint00.oscint0
-Running optimization stage 1 on oscint00 .......
 Post processing for work.osc00.osc0
 Running optimization stage 1 on osc00 .......
-Post processing for work.topshiftrl00.topshiftrl0
-Running optimization stage 1 on topshiftRL00 .......
+Post processing for work.topdiv00.topdiv0
+Running optimization stage 1 on topdiv00 .......
+Post processing for work.topshiftlr00.topshiftlr0
+Running optimization stage 1 on topshiftLR00 .......
 Running optimization stage 2 on OSCH .......
-Running optimization stage 2 on oscint00 .......
-Running optimization stage 2 on div00 .......
 Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on topdiv00 .......
 Running optimization stage 2 on shiftLR00 .......
-Running optimization stage 2 on topshiftRL00 .......
+Running optimization stage 2 on topshiftLR00 .......
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR0\synwork\layer0.rt.csv
+@L: C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\shiftLR0\synwork\layer0.rt.csv
 
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 79MB)
@@ -70,7 +79,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Feb 18 11:19:58 2020
+# Thu Feb 20 22:59:38 2020
 
 ###########################################################]
 
@@ -90,27 +99,29 @@ Implementation : shiftLR0
 Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
+File C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\shiftLR00\shiftLR0\synwork\layer0.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Feb 18 11:20:00 2020
+# Thu Feb 20 22:59:39 2020
 
 ###########################################################]
 
 For a summary of runtime and memory usage for all design units, please see file:
 ==========================================================
-@L: C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_comp.rt.csv
+@L: C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_comp.rt.csv
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Feb 18 11:20:00 2020
+# Thu Feb 20 22:59:39 2020
 
 ###########################################################]

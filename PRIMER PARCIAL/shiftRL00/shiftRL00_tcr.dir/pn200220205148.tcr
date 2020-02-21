@@ -1,0 +1,6 @@
+#Start recording tcl command: 2/20/2020 20:23:53
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftRL00; Project name: shiftRL00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftRL00/shiftRL00.ldf"
+prj_project save
+prj_project close
+#Stop recording: 2/20/2020 20:51:48

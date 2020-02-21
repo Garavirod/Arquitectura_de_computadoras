@@ -1,7 +1,7 @@
-C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topshiftRL00  -multisrs  "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_comp.srs"  -osyn  "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_mult.srs"  -log  "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR0\synlog\shiftLR00_shiftLR0_multi_srs_gen.srr" 
-relcom:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe -link -top topshiftRL00 -multisrs "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_comp.srs" -osyn "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_mult.srs" -log "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR0\synlog\shiftLR00_shiftLR0_multi_srs_gen.srr"
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topshiftLR00  -multisrs  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_comp.srs  -osyn  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_mult.srs  -log  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\shiftLR0\synlog\shiftLR00_shiftLR0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe -link -top topshiftLR00 -multisrs ..\synwork\shiftLR00_shiftLR0_comp.srs -osyn ..\synwork\shiftLR00_shiftLR0_mult.srs -log ..\synlog\shiftLR00_shiftLR0_multi_srs_gen.srr
 rc:0 success:1 runtime:1
-file:..\synwork\shiftLR00_shiftLR0_comp.srs|io:i|time:1582046400|size:6833|exec:0|csum:072A9AB30DB3B78003EBA05661232806
-file:..\synwork\shiftLR00_shiftLR0_mult.srs|io:o|time:1582046402|size:2591|exec:0|csum:
-file:..\synlog\shiftLR00_shiftLR0_multi_srs_gen.srr|io:o|time:1582046402|size:1088|exec:0|csum:
+file:..\synwork\shiftLR00_shiftLR0_comp.srs|io:i|time:1582261179|size:6676|exec:0|csum:4D51D4BD2E8F90A7F5EDB0B1A801913D
+file:..\synwork\shiftLR00_shiftLR0_mult.srs|io:o|time:1582261181|size:2450|exec:0|csum:
+file:..\synlog\shiftLR00_shiftLR0_multi_srs_gen.srr|io:o|time:1582261181|size:1295|exec:0|csum:
 file:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe|io:i|time:1554132152|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

@@ -1,0 +1,2 @@
+@E: CD326 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\topshifLR00.vhdl":18:1:18:5|Port indiv0 of entity work.topdiv00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

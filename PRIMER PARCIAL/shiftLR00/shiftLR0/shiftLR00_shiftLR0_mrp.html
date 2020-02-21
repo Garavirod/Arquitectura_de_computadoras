@@ -7,7 +7,7 @@
 </STYLE>
 </HEAD>
 <PRE><A name="Mrp"></A>
-         Lattice Mapping Report File for Design Module 'topshiftRL00'
+         Lattice Mapping Report File for Design Module 'topshiftLR00'
 
 
 
@@ -15,32 +15,31 @@
 
 Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
      shiftLR00_shiftLR0.ngd -o shiftLR00_shiftLR0_map.ncd -pr
-     shiftLR00_shiftLR0.prf -mp shiftLR00_shiftLR0.mrp -lpf
-     C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER
-     PARCIAL/shiftLR00/shiftLR0/shiftLR00_shiftLR0_synplify.lpf -lpf
-     C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER
-     PARCIAL/shiftLR00/shiftLR00.lpf -c 0 -gui -msgset
-     C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER
-     PARCIAL/shiftLR00/promote.xml 
+     shiftLR00_shiftLR0.prf -mp shiftLR00_shiftLR0.mrp -lpf C:/lscc/diamond/3.11
+     _x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR0/shiftLR00_shiftLR0_synplif
+     y.lpf -lpf
+     C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR00.lpf
+     -c 0 -gui -msgset
+     C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  02/18/20  11:20:25
+Mapped on:  02/20/20  23:10:41
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:     39 out of  7209 (1%)
-      PFU registers:           31 out of  6864 (0%)
+   Number of registers:     38 out of  7209 (1%)
+      PFU registers:           30 out of  6864 (0%)
       PIO registers:            8 out of   345 (2%)
    Number of SLICEs:        38 out of  3432 (1%)
       SLICEs as Logic/ROM:     38 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:         12 out of  3432 (0%)
-   Number of LUT4s:         75 out of  6864 (1%)
-      Number used as logic LUTs:         51
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:         76 out of  6864 (1%)
+      Number used as logic LUTs:         54
       Number used as distributed RAM:     0
-      Number used as ripple logic:       24
+      Number used as ripple logic:       22
       Number used as shift registers:     0
    Number of PIO sites used: 23 + 4(JTAG) out of 115 (23%)
    Number of block RAMs:  0 out of 26 (0%)
@@ -67,32 +66,32 @@ Mapped on:  02/18/20  11:20:25
      distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
-
    Number of clocks:  2
-     Net clk0_c: 12 loads, 12 rising, 0 falling (Driver: SRL00/OS01/outdiv )
-     Net SRL00/sclk: 13 loads, 13 rising, 0 falling (Driver: SRL00/OS00/OSCInst0
+
+     Net clk00_c: 12 loads, 12 rising, 0 falling (Driver: SLR00/D01/outdiv )
+     Net SLR00/sclk: 12 loads, 12 rising, 0 falling (Driver: SLR00/D00/OSCInst0
      )
    Number of Clock Enables:  0
    Number of LSRs:  2
      Net ens0_c: 8 loads, 0 LSLICEs
-     Net SRL00/OS01/un1_sdiv69_RNI19L51: 12 loads, 12 LSLICEs
+     Net SLR00/D01/outdiv_0_sqmuxa_RNIOGU61: 11 loads, 11 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
      Net ens0_c: 16 loads
-     Net SRL00/OS01/un1_sdiv69_RNI19L51: 12 loads
-     Net SRL00/OS01/sdiv[16]: 7 loads
-     Net SRL00/OS01/sdiv[17]: 7 loads
-     Net SRL00/OS01/N_3_19: 6 loads
-     Net SRL00/OS01/sdiv[18]: 6 loads
-     Net SRL00/OS01/sdiv[19]: 6 loads
-     Net cdiv0_c[0]: 5 loads
-     Net cdiv0_c[4]: 5 loads
-     Net SRL00/OS01/sdiv[21]: 5 loads
+     Net SLR00/D01/outdiv_0_sqmuxa_RNIOGU61: 11 loads
+     Net SLR00/D01/sdiv[18]: 9 loads
+     Net SLR00/D01/sdiv[19]: 7 loads
+     Net SLR00/D01/sdiv[20]: 7 loads
+     Net cdiv00_c[2]: 6 loads
+     Net cdiv00_c[3]: 6 loads
+     Net cdiv00_c[0]: 5 loads
+     Net SLR00/D01/N_3_18: 5 loads
+     Net SLR00/D01/sdiv[12]: 5 loads
 
 
 
 
-   Number of warnings:  0
+   Number of warnings:  4
    Number of errors:    0
      
 
@@ -101,7 +100,18 @@ Mapped on:  02/18/20  11:20:25
 
 <A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
 
-   No errors or warnings present.
+WARNING - map: C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shift
+     LR00.lpf(10): Semantic error in "LOCATE COMP "outs0[9]" SITE "50" ;": COMP
+     "outs0[9]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shift
+     LR00.lpf(11): Semantic error in "LOCATE COMP "outs0[8]" SITE "48" ;": COMP
+     "outs0[8]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shift
+     LR00.lpf(20): Semantic error in "LOCATE COMP "ins0[9]" SITE "24" ;": COMP
+     "ins0[9]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shift
+     LR00.lpf(21): Semantic error in "LOCATE COMP "ins0[8]" SITE "23" ;": COMP
+     "ins0[8]" cannot be found in design. This preference has been disabled.
 
 
 
@@ -111,12 +121,13 @@ Mapped on:  02/18/20  11:20:25
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
-| clk0                | OUTPUT    | LVCMOS25  |            |
+| clk00               | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv0[0]            | INPUT     | LVCMOS25  |            |
+| cdiv00[0]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | outs0[7]            | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
+
 | outs0[6]            | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
 | outs0[5]            | OUTPUT    | LVCMOS25  | OUT        |
@@ -127,7 +138,6 @@ Mapped on:  02/18/20  11:20:25
 +---------------------+-----------+-----------+------------+
 | outs0[2]            | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
-
 | outs0[1]            | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
 | outs0[0]            | OUTPUT    | LVCMOS25  | OUT        |
@@ -150,13 +160,13 @@ Mapped on:  02/18/20  11:20:25
 +---------------------+-----------+-----------+------------+
 | ens0                | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv0[4]            | INPUT     | LVCMOS25  |            |
+| cdiv00[4]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv0[3]            | INPUT     | LVCMOS25  |            |
+| cdiv00[3]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv0[2]            | INPUT     | LVCMOS25  |            |
+| cdiv00[2]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv0[1]            | INPUT     | LVCMOS25  |            |
+| cdiv00[1]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 
 
@@ -166,26 +176,24 @@ Mapped on:  02/18/20  11:20:25
 Block VCC undriven or does not drive anything - clipped.
 Block GSR_INST undriven or does not drive anything - clipped.
 Block GND undriven or does not drive anything - clipped.
-Block SRL00/OS01/VCC undriven or does not drive anything - clipped.
-Block SRL01/GND undriven or does not drive anything - clipped.
-Block SRL01/VCC undriven or does not drive anything - clipped.
+Block SLR00/D01/VCC undriven or does not drive anything - clipped.
+Block SLR01/GND undriven or does not drive anything - clipped.
+Block SLR01/VCC undriven or does not drive anything - clipped.
 Signal ens0_c_i was merged into signal ens0_c
-Signal SRL00/OS00/GND undriven or does not drive anything - clipped.
-Signal SRL00/OS01/GND undriven or does not drive anything - clipped.
+Signal SLR00/D00/GND undriven or does not drive anything - clipped.
+Signal SLR00/D01/GND undriven or does not drive anything - clipped.
 Signal VCC undriven or does not drive anything - clipped.
-Signal SRL00/OS00/OSCInst0_SEDSTDBY undriven or does not drive anything -
+Signal SLR00/D00/OSCInst0_SEDSTDBY undriven or does not drive anything -
      clipped.
-Signal SRL00/OS01/un1_sdiv_s_21_0_S1 undriven or does not drive anything -
-     clipped.
-Signal SRL00/OS01/un1_sdiv_s_21_0_COUT undriven or does not drive anything -
-     clipped.
-Signal SRL00/OS01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
-     clipped.
-Signal SRL00/OS01/N_1 undriven or does not drive anything - clipped.
-Block ens0_pad_RNIACS5 was optimized away.
-Block SRL00/OS00/GND was optimized away.
-Block SRL00/OS01/GND was optimized away.
 
+Signal SLR00/D01/un1_sdiv_cry_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal SLR00/D01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal SLR00/D01/N_1 undriven or does not drive anything - clipped.
+Block ens0_pad_RNIACS5 was optimized away.
+Block SLR00/D00/GND was optimized away.
+Block SLR00/D01/GND was optimized away.
 
      
 
@@ -193,10 +201,10 @@ OSC Summary
 -----------
 
 OSC 1:                                     Pin/Node Value
-  OSC Instance Name:                                SRL00/OS00/OSCInst0
+  OSC Instance Name:                                SLR00/D00/OSCInst0
   OSC Type:                                         OSCH
   STDBY Input:                                      NONE
-  OSC Output:                              NODE     SRL00/sclk
+  OSC Output:                              NODE     SLR00/sclk
   OSC Nominal Frequency (MHz):                      2.08
 
 
@@ -204,7 +212,7 @@ OSC 1:                                     Pin/Node Value
 <A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
 ---------------
 
-Instance Name: SRL00/OS00/OSCInst0
+Instance Name: SLR00/D00/OSCInst0
          Type: OSCH
 
 
@@ -212,18 +220,10 @@ Instance Name: SRL00/OS00/OSCInst0
 <A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
 -------------------------
 
-   Total CPU Time: 0 secs  
-   Total REAL Time: 4 secs  
-   Peak Memory Usage: 35 MB
+   Total CPU Time: 2 secs  
+   Total REAL Time: 3 secs  
+   Peak Memory Usage: 58 MB
         
-
-
-
-
-
-
-
-
 
 
 

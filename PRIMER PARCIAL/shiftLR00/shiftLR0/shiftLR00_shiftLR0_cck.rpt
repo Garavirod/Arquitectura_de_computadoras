@@ -13,11 +13,11 @@ Hostname: DESKTOP-P12ICFP
 
 Implementation : shiftLR0
 
-# Written on Tue Feb 18 11:20:07 2020
+# Written on Thu Feb 20 22:59:45 2020
 
 ##### DESIGN INFO #######################################################
 
-Top View:                "topshiftRL00"
+Top View:                "topshiftLR00"
 Constraint File(s):      (none)
 
 
@@ -35,11 +35,11 @@ Found 0 issues in 0 out of 0 constraints
 Clock Relationships
 *******************
 
-Starting                            Ending                              |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-oscint00|osc_int_inferred_clock     oscint00|osc_int_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
-div00|outdiv_derived_clock          div00|outdiv_derived_clock          |     480.769          |     No paths         |     No paths         |     No paths                         
-===================================================================================================================================================================================
+Starting                         Ending                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     osc00|osc_int_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
+div00|outdiv_derived_clock       div00|outdiv_derived_clock       |     480.769          |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -47,11 +47,11 @@ div00|outdiv_derived_clock          div00|outdiv_derived_clock          |     48
 Unconstrained Start/End Points
 ******************************
 
-p:cdiv0[0]
-p:cdiv0[1]
-p:cdiv0[2]
-p:cdiv0[3]
-p:cdiv0[4]
+p:cdiv00[0]
+p:cdiv00[1]
+p:cdiv00[2]
+p:cdiv00[3]
+p:cdiv00[4]
 p:ens0
 p:ins0[0]
 p:ins0[1]

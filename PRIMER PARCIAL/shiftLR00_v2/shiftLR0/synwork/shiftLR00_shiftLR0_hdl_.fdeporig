@@ -1,0 +1,60 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|topshiftRL00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arquitectura_de_computadoras\\PRIMER PARCIAL\\shiftLR00\\shiftLR0\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\bin64\\c_vhdl.exe":1554132068
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\location.map":1554156080
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std1164.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\numeric.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\arith.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542267132
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arquitectura_de_computadoras\\PRIMER PARCIAL\\shiftLR00\\oscint00.vhdl":1581831131
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arquitectura_de_computadoras\\PRIMER PARCIAL\\shiftLR00\\div00.vhdl":1581831175
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arquitectura_de_computadoras\\PRIMER PARCIAL\\shiftLR00\\packageosc00.vhdl":1581831249
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arquitectura_de_computadoras\\PRIMER PARCIAL\\shiftLR00\\osc00.vhdl":1581831286
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arquitectura_de_computadoras\\PRIMER PARCIAL\\shiftLR00\\shiftLR00.vhdl":1582045078
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arquitectura_de_computadoras\\PRIMER PARCIAL\\shiftLR00\\packageshiftRL00.vhdl":1582045176
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arquitectura_de_computadoras\\PRIMER PARCIAL\\shiftLR00\\topshiftRL00.vhdl":1582046367
+0 "C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\oscint00.vhdl" vhdl
+2 "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\div00.vhdl" vhdl
+3 "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\packageosc00.vhdl" vhdl
+4 "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\osc00.vhdl" vhdl
+5 "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR00.vhdl" vhdl
+6 "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\packageshiftRL00.vhdl" vhdl
+7 "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\topshiftRL00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 1 2 3 
+5 -1
+6 -1
+7 4 5 6 
+
+# Dependency Lists (Users Of)
+0 -1
+1 4 
+2 4 
+3 4 
+4 7 
+5 7 
+6 7 
+7 -1
+
+# Design Unit to File Association
+arch work oscint00 oscint0 1
+module work oscint00 1
+arch work div00 div0 2
+module work div00 2
+arch work osc00 osc0 4
+module work osc00 4
+arch work shiftlr00 shiftlr0 5
+module work shiftlr00 5
+arch work topshiftrl00 topshiftrl0 7
+module work topshiftrl00 7

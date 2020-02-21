@@ -1,12 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR00.lpf(10): Semantic error in &quot;LOCATE COMP &quot;outs0[9]&quot; SITE &quot;50&quot; ;&quot;: </Dynamic>
+            <Dynamic>outs0[9]</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR00.lpf</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR00.lpf(11): Semantic error in &quot;LOCATE COMP &quot;outs0[8]&quot; SITE &quot;48&quot; ;&quot;: </Dynamic>
+            <Dynamic>outs0[8]</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR00.lpf</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR00.lpf(20): Semantic error in &quot;LOCATE COMP &quot;ins0[9]&quot; SITE &quot;24&quot; ;&quot;: </Dynamic>
+            <Dynamic>ins0[9]</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR00.lpf</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR00.lpf(21): Semantic error in &quot;LOCATE COMP &quot;ins0[8]&quot; SITE &quot;23&quot; ;&quot;: </Dynamic>
+            <Dynamic>ins0[8]</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftLR00/shiftLR00.lpf</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+    </Task>
     <Task name="Translate">
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>SRL00/OS00/OSCInst0_SEDSTDBY</Dynamic>
-            <Navigation>SRL00/OS00/OSCInst0_SEDSTDBY</Navigation>
+            <Dynamic>SLR00/D00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>SLR00/D00/OSCInst0_SEDSTDBY</Navigation>
         </Message>
         <Message>
             <ID>1163101</ID>
@@ -22,33 +56,33 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CD326 :&quot;C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\oscint00.vhdl&quot;:31:1:31:8|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
+            <Dynamic>CD326 :&quot;C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl&quot;:23:1:23:8|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
             <Navigation>CD326</Navigation>
-            <Navigation>C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\oscint00.vhdl</Navigation>
-            <Navigation>31</Navigation>
+            <Navigation>C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl</Navigation>
+            <Navigation>23</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>31</Navigation>
+            <Navigation>23</Navigation>
             <Navigation>8</Navigation>
             <Navigation>Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;c:\lscc\diamond\3.11_x64\bin\nt64\arquitectura_de_computadoras\primer parcial\shiftlr00\div00.vhdl&quot;:23:4:23:5|Found inferred clock oscint00|osc_int_inferred_clock which controls 23 sequential elements including SRL00.OS01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Dynamic>MT529 :&quot;c:\lscc\diamond\3.11_x64\bin\nt64\arqui\practicas\topdiv00vhdl\div00.vhdl&quot;:20:2:20:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including SLR00.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
             <Navigation>MT529</Navigation>
-            <Navigation>c:\lscc\diamond\3.11_x64\bin\nt64\arquitectura_de_computadoras\primer parcial\shiftlr00\div00.vhdl</Navigation>
-            <Navigation>23</Navigation>
-            <Navigation>4</Navigation>
-            <Navigation>23</Navigation>
-            <Navigation>5</Navigation>
-            <Navigation>Found inferred clock oscint00|osc_int_inferred_clock which controls 23 sequential elements including SRL00.OS01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+            <Navigation>c:\lscc\diamond\3.11_x64\bin\nt64\arqui\practicas\topdiv00vhdl\div00.vhdl</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including SLR00.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT420 |Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net SRL00.OS00.sclk.</Dynamic>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net SLR00.D00.sclk.</Dynamic>
             <Navigation>MT420</Navigation>
-            <Navigation>Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net SRL00.OS00.sclk.</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net SLR00.D00.sclk.</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

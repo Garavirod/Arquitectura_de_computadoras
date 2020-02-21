@@ -1,0 +1,9 @@
+#Start recording tcl command: 2/22/2019 11:36:06
+#Project Location: C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/shiftRL00; Project name: shiftRL00
+prj_project open "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/shiftRL00/shiftRL00.ldf"
+prj_src remove "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/shiftRL00/shiftLR00.vhdl"
+prj_src remove "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/shiftRL00/packageshiftLR00.vhdl"
+prj_src remove "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/shiftRL00/topshiftLR00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 2/22/2019 13:32:01

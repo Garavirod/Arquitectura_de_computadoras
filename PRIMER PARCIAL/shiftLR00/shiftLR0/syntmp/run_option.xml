@@ -2,8 +2,8 @@
 <!-- 
   Synopsys, Inc.
   Version N-2018.03L-SP1-1
-  Project file C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\shiftLR00\shiftLR0\syntmp\run_option.xml
-  Written on Tue Feb 18 11:19:55 2020
+  Project file C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\shiftLR00\shiftLR0\syntmp\run_option.xml
+  Written on Thu Feb 20 22:59:35 2020
 
 
 --> 
@@ -11,7 +11,7 @@
      <option name="project_name" display_name="Project Name">proj_1</option>
      <option name="device_name" display_name="Device Name">shiftLR0: Lattice MachXO2 : LCMXO2_7000HE</option>
      <option name="impl_name" display_name="Implementation Name">shiftLR0</option>
-     <option name="top_module" display_name="Top Module">topshiftRL00</option>
+     <option name="top_module" display_name="Top Module">topshiftLR00</option>
      <option name="pipe" display_name="Pipelining">1</option>
      <option name="retiming" display_name="Retiming">0</option>
      <option name="resource_sharing" display_name="Resource Sharing">1</option>

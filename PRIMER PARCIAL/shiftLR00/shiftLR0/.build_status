@@ -6,38 +6,38 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1582046500"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1582261887"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1582046429">
-            <Task name="Map" build_result="2" update_result="0" update_time="1582046429"/>
+        <Milestone name="Map" build_result="2" build_time="1582261843">
+            <Task name="Map" build_result="2" update_result="0" update_time="1582261843"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1582046482">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1582046482"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1582046486"/>
+        <Milestone name="PAR" build_result="2" build_time="1582261871">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1582261871"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1582261874"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1582046418">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1582046418"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1582261195">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1582261195"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1582046367"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1582260995"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1582046423">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1582046423"/>
+        <Milestone name="Translate" build_result="2" build_time="1582261197">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1582261197"/>
         </Milestone>
-        <Report name="shiftLR00_shiftLR0.bgn" last_build_time="1582046500" last_build_size="4475"/>
-        <Report name="shiftLR00_shiftLR0.edi" last_build_time="1582046413" last_build_size="76423"/>
-        <Report name="shiftLR00_shiftLR0.jed" last_build_time="1582046500" last_build_size="1465128"/>
-        <Report name="shiftLR00_shiftLR0.ncd" last_build_time="1582046482" last_build_size="89535"/>
-        <Report name="shiftLR00_shiftLR0.ngd" last_build_time="1582046423" last_build_size="75658"/>
-        <Report name="shiftLR00_shiftLR0.twr" last_build_time="1582046485" last_build_size="54759"/>
-        <Report name="shiftLR00_shiftLR0_map.ncd" last_build_time="1582046429" last_build_size="65319"/>
+        <Report name="shiftLR00_shiftLR0.bgn" last_build_time="1582261886" last_build_size="4419"/>
+        <Report name="shiftLR00_shiftLR0.edi" last_build_time="1582261190" last_build_size="76072"/>
+        <Report name="shiftLR00_shiftLR0.jed" last_build_time="1582261886" last_build_size="1465127"/>
+        <Report name="shiftLR00_shiftLR0.ncd" last_build_time="1582261871" last_build_size="91161"/>
+        <Report name="shiftLR00_shiftLR0.ngd" last_build_time="1582261197" last_build_size="75377"/>
+        <Report name="shiftLR00_shiftLR0.twr" last_build_time="1582261874" last_build_size="70534"/>
+        <Report name="shiftLR00_shiftLR0_map.ncd" last_build_time="1582261843" last_build_size="65546"/>
     </Strategy>
 </BuildStatus>
