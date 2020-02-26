@@ -1,0 +1,11 @@
+#Start recording tcl command: 2/22/2019 11:40:43
+#Project Location: C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/rotRL00; Project name: rotRL00
+prj_project new -name "rotRL00" -impl "rotRL0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/topdiv00VHDL/div00.vhdl" "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/topdiv00VHDL/osc00.vhdl" "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/topdiv00VHDL/packagediv00.vhdl" "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/topdiv00VHDL/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/rotRL00/rotLR00.vhd"
+prj_src remove "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/rotRL00/rotLR00.vhd"
+prj_src add "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/rotRL00/rotLR00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 2/22/2019 11:48:55

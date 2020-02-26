@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toprotRL00  -multisrs  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rotRL00\rotRL0\synwork\rotRL00_rotRL0_comp.srs  -osyn  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rotRL00\rotRL0\synwork\rotRL00_rotRL0_mult.srs  -log  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rotRL00\rotRL0\synlog\rotRL00_rotRL0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe -link -top toprotRL00 -multisrs ..\synwork\rotRL00_rotRL0_comp.srs -osyn ..\synwork\rotRL00_rotRL0_mult.srs -log ..\synlog\rotRL00_rotRL0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\rotRL00_rotRL0_comp.srs|io:i|time:1582737084|size:6646|exec:0|csum:F1D250B6D83DAC7E5D22070A43F55139
+file:..\synwork\rotRL00_rotRL0_mult.srs|io:o|time:1582737086|size:2441|exec:0|csum:
+file:..\synlog\rotRL00_rotRL0_multi_srs_gen.srr|io:o|time:1582737086|size:1281|exec:0|csum:
+file:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe|io:i|time:1554132152|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2
