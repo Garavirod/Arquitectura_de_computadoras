@@ -2,7 +2,7 @@
 <BaliProject version="3.2" title="rotRL00" device="LCMXO2-7000HE-5TG144C" default_implementation="rotRL0">
     <Options/>
     <Implementation title="rotRL0" dir="rotRL0" description="rotRL0" synthesis="synplify" default_strategy="Strategy1">
-        <Options/>
+        <Options def_top="toprotRL00"/>
         <Source name="../topdiv00VHDL/div00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>

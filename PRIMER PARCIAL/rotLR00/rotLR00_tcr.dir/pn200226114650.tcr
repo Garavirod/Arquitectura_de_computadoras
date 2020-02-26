@@ -1,0 +1,15 @@
+#Start recording tcl command: 2/26/2020 11:26:08
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/rotLR00; Project name: rotLR00
+C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/rotRL00
+rotRL00
+#Start recording tcl command: 2/26/2020 11:46:47
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/rotRL00; Project name: rotRL00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/rotLR00/rotLR00.ldf"
+pgr_project close
+pgr_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/rotLR00/rotLR0/rotLR0.xcf"
+pgr_program run
+pgr_project save "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/rotLR00/rotLR0/rotLR0.xcf"
+prj_project close
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/rotRL00/rotRL00.ldf"
+pgr_project close
+#Stop recording: 2/26/2020 11:46:50

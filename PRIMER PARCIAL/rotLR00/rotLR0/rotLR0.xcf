@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
-<ispXCF version="3.9.0">
+<ispXCF version="3.11.0">
 	<Comment></Comment>
 	<Chain>
 		<Comm>JTAG</Comm>
@@ -19,9 +19,9 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/rotLR00/rotLR0/rotLR00_rotLR0.jed</File>
-			<FileTime>03/08/19 18:26:43</FileTime>
-			<JedecChecksum>0x4A22</JedecChecksum>
+			<File>C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/rotLR00/rotLR0/rotLR00_rotLR0.jed</File>
+			<FileTime>02/26/20 11:00:01</FileTime>
+			<JedecChecksum>0x15E2</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -48,9 +48,5 @@
 		<CableName>USB2</CableName>
 		<PortAdd>FTUSB-0</PortAdd>
 		<USBID>Lattice FTUSB Interface Cable A Location 0000 Serial A</USBID>
-		<JTAGPinSetting>
-			TRST	ABSENT;
-			ISPEN	ABSENT;
-		</JTAGPinSetting>
 	</CableOptions>
 </ispXCF>
