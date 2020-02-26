@@ -1,0 +1,14 @@
+#Start recording tcl command: 2/21/2020 11:17:23
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftRL00; Project name: shiftRL00
+C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/word00
+word00
+#Start recording tcl command: 2/21/2020 11:24:19
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/word00; Project name: word00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftRL00/shiftRL00.ldf"
+pgr_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_program set -cable 
+pgr_program run
+pgr_project save "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftRL00/shiftRL0/shiftRL0.xcf"
+prj_project close
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/word00/word00.ldf"
+#Stop recording: 2/21/2020 11:24:21

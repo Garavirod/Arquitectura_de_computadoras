@@ -1,0 +1,13 @@
+#Start recording tcl command: 3/23/2018 08:45:50
+#Project Location: C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/mult8bit00.ldf"
+pgr_project open "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/mult8bit/mult8bit.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/mult8bit/mult8bit.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/mult8bit/mult8bit.xcf"
+prj_project save
+prj_project close
+#Stop recording: 3/23/2018 09:11:06

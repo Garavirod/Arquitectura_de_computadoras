@@ -4,10 +4,10 @@
     <Implementation title="word0" dir="word0" description="word0" synthesis="synplify" default_strategy="Strategy1">
         <Options def_top="word00"/>
         <Source name="code00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="coder00"/>
+            <Options/>
         </Source>
         <Source name="contring00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="contring00"/>
+            <Options/>
         </Source>
         <Source name="div00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
@@ -19,7 +19,7 @@
             <Options/>
         </Source>
         <Source name="osc00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="osc00"/>
+            <Options/>
         </Source>
         <Source name="oscint0.vhdl" type="VHDL" type_short="VHDL">
             <Options/>

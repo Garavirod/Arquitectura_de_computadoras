@@ -19,7 +19,7 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/shiftRL00/shiftRL0/shiftRL00_shiftRL0.jed</File>
+			<File>C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/shiftRL00/shiftRL0/shiftRL00_shiftRL0.jed</File>
 			<FileTime>02/20/20 22:16:58</FileTime>
 			<JedecChecksum>0x2CF6</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
@@ -48,9 +48,5 @@
 		<CableName>USB2</CableName>
 		<PortAdd>FTUSB-0</PortAdd>
 		<USBID>Lattice FTUSB Interface Cable A Location 0000</USBID>
-		<JTAGPinSetting>
-			TRST	ABSENT;
-			ISPEN	ABSENT;
-		</JTAGPinSetting>
 	</CableOptions>
 </ispXCF>

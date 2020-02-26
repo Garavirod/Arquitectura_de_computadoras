@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  word00  -multisrs  "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\word00\word0\synwork\word00_word0_comp.srs"  -osyn  "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\word00\word0\synwork\word00_word0_mult.srs"  -log  "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\word00\word0\synlog\word00_word0_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe -link -top word00 -multisrs "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\word00\word0\synwork\word00_word0_comp.srs" -osyn "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\word00\word0\synwork\word00_word0_mult.srs" -log "C:\lscc\diamond\3.11_x64\bin\nt64\Arquitectura_de_computadoras\PRIMER PARCIAL\word00\word0\synlog\word00_word0_multi_srs_gen.srr"
+rc:0 success:1 runtime:1
+file:..\synwork\word00_word0_comp.srs|io:i|time:1582303825|size:7771|exec:0|csum:E3BD284537EB46C0B9EE584DE443B18C
+file:..\synwork\word00_word0_mult.srs|io:o|time:1582303827|size:2875|exec:0|csum:
+file:..\synlog\word00_word0_multi_srs_gen.srr|io:o|time:1582303827|size:1079|exec:0|csum:
+file:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe|io:i|time:1554132152|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

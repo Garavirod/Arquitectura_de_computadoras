@@ -1,0 +1,2 @@
+@W: CD638 :"C:\lscc\diamond\3.11_x64\bin\nt64\Practicas\mult8bit00\topmult8bit00.vhdl":17:7:17:10|Signal ss06 is undriven. Either assign the signal a value or remove the signal declaration.
+

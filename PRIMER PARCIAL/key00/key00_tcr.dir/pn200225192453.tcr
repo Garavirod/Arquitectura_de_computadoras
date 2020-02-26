@@ -1,0 +1,9 @@
+#Start recording tcl command: 2/25/2020 11:03:36
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/key00; Project name: key00
+prj_project new -name "key00" -impl "key0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/osc00/div00.vhdl" "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/osc00/osc00.vhdl" "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/osc00/oscint00.vhdl" "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/osc00/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/key00/contring00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 2/25/2020 19:24:53

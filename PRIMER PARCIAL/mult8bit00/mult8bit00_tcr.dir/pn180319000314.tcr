@@ -1,0 +1,15 @@
+#Start recording tcl command: 3/18/2018 23:34:26
+#Project Location: C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00; Project name: mult8bit00
+prj_project new -name "mult8bit00" -impl "mult8bit" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/and00.vhdl"
+prj_src add "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/xor.vhdl"
+prj_src add "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/packageha00.vhdl"
+prj_src add "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/ha00.vhdl"
+prj_src add "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/or00.vhdl"
+prj_src add "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/packagefa00.vhdl"
+prj_src add "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/fa00.vhdl"
+prj_src add "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/packagemult8bit00.vhdl"
+prj_src add "C:/Users/VV/Desktop/Escuela/ArquitecturadeComputadoras/Practicas/mult8bit00/topmult8bit00.vhdl"
+prj_run Export -impl mult8bit -task Jedecgen
+#Stop recording: 3/19/2018 00:03:14
