@@ -1,0 +1,13 @@
+#Start recording tcl command: 2/22/2019 13:32:01
+#Project Location: C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/rotLR; Project name: rotLR00
+prj_project new -name "rotLR00" -impl "rotLR0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/topdiv00VHDL/div00.vhdl" "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/topdiv00VHDL/osc00.vhdl" "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/topdiv00VHDL/packagediv00.vhdl" "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/topdiv00VHDL/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/rotLR/rotLR00.vhdl"
+prj_src add "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/rotLR/packagerotLR00.vhdl"
+prj_src add "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/rotLR/toprotLR00.vhd"
+prj_src remove "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/rotLR/toprotLR00.vhd"
+prj_src add "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/rotLR/toprotLR00.vhdl"
+prj_run Export -impl rotLR0 -task Jedecgen
+prj_run Export -impl rotLR0 -task Jedecgen
+#Stop recording: 2/22/2019 14:30:25

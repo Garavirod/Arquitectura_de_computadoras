@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "rotLR00_rotLR0.log"
+-o "rotLR00_rotLR0.csv"
+-pr "rotLR00_rotLR0.prf"

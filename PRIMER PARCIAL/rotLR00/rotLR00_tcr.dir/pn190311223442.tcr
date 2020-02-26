@@ -1,0 +1,5 @@
+#Start recording tcl command: 3/11/2019 22:34:28
+#Project Location: C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/rotLR00; Project name: rotLR00
+prj_project open "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/rotLR00/rotLR00.ldf"
+prj_project close
+#Stop recording: 3/11/2019 22:34:42
