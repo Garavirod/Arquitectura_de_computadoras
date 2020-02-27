@@ -1,0 +1,65 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arqui\\Practicas\\barrelRL00\\barrelRL0\\synwork\\barrelRL00_barrelRL0_comp.srs|-top|topbarrelRL00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\bin64\\c_vhdl.exe":1554132068
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\location.map":1554156080
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std1164.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\numeric.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\arith.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1554131264
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542267132
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arqui\\Practicas\\barrelhelp\\div00.vhd":1536248934
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\cpld\\lattice.vhd":1554131288
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arqui\\Practicas\\barrelhelp\\osc00.vhd":1536090180
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1554131288
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arqui\\Practicas\\barrelhelp\\packagediv00.vhd":1536249206
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arqui\\Practicas\\barrelRL00\\barrelRL00.vhd":1550873766
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arqui\\Practicas\\barrelRL00\\packagebarrelRL00.vhd":1541231396
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arqui\\Practicas\\barrelhelp\\topdiv00.vhd":1536249772
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\bin\\nt64\\Arqui\\Practicas\\barrelRL00\\topbarrelRL00.vhd":1541231452
+0 "C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelhelp\div00.vhd" vhdl
+2 "C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelhelp\osc00.vhd" vhdl
+3 "C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelhelp\packagediv00.vhd" vhdl
+4 "C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelRL00\barrelRL00.vhd" vhdl
+5 "C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelRL00\packagebarrelRL00.vhd" vhdl
+6 "C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelhelp\topdiv00.vhd" vhdl
+7 "C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelRL00\topbarrelRL00.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 2 1 3 
+7 6 4 5 
+
+# Dependency Lists (Users Of)
+0 -1
+1 6 
+2 6 
+3 6 
+4 7 
+5 7 
+6 7 
+7 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work osc00 osc0 2
+module work osc00 2
+arch work barrelrl00 barrelrl0 4
+module work barrelrl00 4
+arch work topdiv00 topdiv0 6
+module work topdiv00 6
+arch work topbarrelrl00 topbarrelrl0 7
+module work topbarrelrl00 7
+
+
+# Configuration files used

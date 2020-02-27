@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="barrelRL00" device="LCMXO2-7000HE-5TG144C" default_implementation="barrelRL0">
+    <Options/>
+    <Implementation title="barrelRL0" dir="barrelRL0" description="barrelRL0" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topbarrelRL00"/>
+        <Source name="../barrelhelp/div00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../barrelhelp/osc00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../barrelhelp/packagediv00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../barrelhelp/topdiv00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="barrelRL00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagebarrelRL00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topbarrelRL00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="topbarrelRL00"/>
+        </Source>
+        <Source name="barrelRL0/barrelRL0.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="barrelRL00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="barrelRL001.sty"/>
+</BaliProject>

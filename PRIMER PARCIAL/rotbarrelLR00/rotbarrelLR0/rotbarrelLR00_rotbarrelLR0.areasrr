@@ -1,0 +1,80 @@
+----------------------------------------------------------------------
+Report for cell toprotbarrelLR00.toprotbarrellr0
+
+Register bits: 42 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       27
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       14       100.0
+                            FD1P3AX       12       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                                GSR        1       100.0
+                                 IB       18       100.0
+                                 OB        9       100.0
+                           OFS1P3IX        8       100.0
+                           ORCALUT4       66       100.0
+                               OSCH        1       100.0
+                                PUR        1       100.0
+                                VHI        5       100.0
+                                VLO        5       100.0
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                      rotbarrelLR00        1       100.0
+                           topdiv00        1       100.0
+                            
+                         TOTAL           166           
+----------------------------------------------------------------------
+Report for cell rotbarrelLR00.netlist
+     Instance path:  SLR01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3        21.4
+                            FD1P3AX       12       100.0
+                           ORCALUT4       14        21.2
+                                VHI        1        20.0
+                                VLO        1        20.0
+                            
+                         TOTAL            31           
+----------------------------------------------------------------------
+Report for cell topdiv00.netlist
+     Instance path:  SLR00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        78.6
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       52        78.8
+                               OSCH        1       100.0
+                                VHI        3        60.0
+                                VLO        3        60.0
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL            94           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  SLR00.D01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        78.6
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       52        78.8
+                                VHI        1        20.0
+                                VLO        1        20.0
+                            
+                         TOTAL            87           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  SLR00.D00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VHI        1        20.0
+                                VLO        1        20.0
+                            
+                         TOTAL             3           

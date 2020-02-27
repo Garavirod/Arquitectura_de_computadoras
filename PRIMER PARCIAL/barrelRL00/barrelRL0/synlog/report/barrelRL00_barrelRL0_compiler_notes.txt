@@ -1,0 +1,11 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelRL00\topbarrelRL00.vhd":9:7:9:19|Top entity is set to topbarrelRL00.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelRL00\topbarrelRL00.vhd":9:7:9:19|Synthesizing work.topbarrelrl00.topbarrelrl0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelRL00\barrelRL00.vhd":9:7:9:16|Synthesizing work.barrelrl00.barrelrl0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelhelp\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelhelp\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\barrelhelp\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

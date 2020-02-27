@@ -1,0 +1,13 @@
+@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\barrelLR00\topbarrelLR00.vhd":9:7:9:19|Synthesizing work.topbarrellr00.topbarrellr0.
+@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\barrelLR00\barrelLR00.vhd":9:7:9:16|Synthesizing work.barrellr00.barrellr0.
+Post processing for work.barrellr00.barrellr0
+@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\barrelhelp\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\barrelhelp\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\barrelhelp\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topbarrellr00.topbarrellr0

@@ -1,0 +1,35 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Feb 22 16:20:05 2019 *
+NOTE DESIGN NAME: topbarrelLR00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk0 : 61 : out *
+NOTE PINS cdiv0[0] : 14 : in *
+NOTE PINS outs0[7] : 91 : out *
+NOTE PINS outs0[6] : 92 : out *
+NOTE PINS outs0[5] : 93 : out *
+NOTE PINS outs0[4] : 94 : out *
+NOTE PINS outs0[3] : 96 : out *
+NOTE PINS outs0[2] : 95 : out *
+NOTE PINS outs0[1] : 98 : out *
+NOTE PINS outs0[0] : 97 : out *
+NOTE PINS notimes0[3] : 132 : in *
+NOTE PINS notimes0[2] : 133 : in *
+NOTE PINS notimes0[1] : 24 : in *
+NOTE PINS notimes0[0] : 23 : in *
+NOTE PINS ins0[7] : 26 : in *
+NOTE PINS ins0[6] : 25 : in *
+NOTE PINS ins0[5] : 28 : in *
+NOTE PINS ins0[4] : 27 : in *
+NOTE PINS ins0[3] : 33 : in *
+NOTE PINS ins0[2] : 32 : in *
+NOTE PINS ins0[1] : 35 : in *
+NOTE PINS ins0[0] : 34 : in *
+NOTE PINS ens0 : 1 : in *
+NOTE PINS cdiv0[4] : 10 : in *
+NOTE PINS cdiv0[3] : 11 : in *
+NOTE PINS cdiv0[2] : 12 : in *
+NOTE PINS cdiv0[1] : 13 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

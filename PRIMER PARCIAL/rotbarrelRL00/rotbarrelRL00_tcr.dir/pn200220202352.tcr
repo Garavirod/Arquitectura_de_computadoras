@@ -1,0 +1,5 @@
+#Start recording tcl command: 2/20/2020 20:23:20
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/rotbarrelRL00; Project name: rotbarrelRL00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/rotbarrelRL00/rotbarrelRL00.ldf"
+prj_project close
+#Stop recording: 2/20/2020 20:23:52

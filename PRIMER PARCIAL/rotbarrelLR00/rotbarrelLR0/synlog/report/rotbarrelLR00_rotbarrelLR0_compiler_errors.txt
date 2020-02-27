@@ -1,0 +1,3 @@
+@E: CD371 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\rotbarrelLR00\rotbarrelLR00.vhd":33:9:33:23|No matching overload for ">="
+@E: CD676 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\rotbarrelLR00\rotbarrelLR00.vhd":33:9:33:23|Can't implement expression (no function signature?)
+

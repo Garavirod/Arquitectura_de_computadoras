@@ -1,0 +1,1 @@
+run_tcl -fg rotbarrelRL00_rotbarrelRL0_synplify.tcl
