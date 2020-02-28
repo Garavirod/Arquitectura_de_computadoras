@@ -1,0 +1,66 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|word00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\monke\\Desktop\\Arquitectura\\Practicas\\Primer Parcial\\word00\\impl1\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\monke\\Desktop\\Arquitectura\\Practicas\\Primer Parcial\\word00\\coder00.vhdl":1582309295
+#CUR:"C:\\Users\\monke\\Desktop\\Arquitectura\\Practicas\\Primer Parcial\\word00\\contring00.vhdl":1582309538
+#CUR:"C:\\Users\\monke\\Desktop\\Arquitectura\\Practicas\\Primer Parcial\\word00\\div00.vhdl":1581700619
+#CUR:"C:\\Users\\monke\\Desktop\\Arquitectura\\Practicas\\Primer Parcial\\word00\\oscint00.vhdl":1581550077
+#CUR:"C:\\Users\\monke\\Desktop\\Arquitectura\\Practicas\\Primer Parcial\\word00\\packageosc00.vhdl":1581551720
+#CUR:"C:\\Users\\monke\\Desktop\\Arquitectura\\Practicas\\Primer Parcial\\word00\\packageword00.vhdl":1582307903
+#CUR:"C:\\Users\\monke\\Desktop\\Arquitectura\\Practicas\\Primer Parcial\\word00\\osc00.vhdl":1582308137
+#CUR:"C:\\Users\\monke\\Desktop\\Arquitectura\\Practicas\\Primer Parcial\\word00\\word00.vhdl":1582307936
+0 "C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\coder00.vhdl" vhdl
+2 "C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\contring00.vhdl" vhdl
+3 "C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\div00.vhdl" vhdl
+4 "C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\oscint00.vhdl" vhdl
+5 "C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\packageosc00.vhdl" vhdl
+6 "C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\packageword00.vhdl" vhdl
+7 "C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\osc00.vhdl" vhdl
+8 "C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\word00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 4 3 5 
+8 7 2 1 6 
+
+# Dependency Lists (Users Of)
+0 -1
+1 8 
+2 8 
+3 7 
+4 7 
+5 7 
+6 8 
+7 8 
+8 -1
+
+# Design Unit to File Association
+arch work coder00 coder0 1
+module work coder00 1
+arch work contring00 contring0 2
+module work contring00 2
+arch work div00 div0 3
+module work div00 3
+arch work oscint00 oscint0 4
+module work oscint00 4
+arch work osc00 osc0 7
+module work osc00 7
+arch work word00 word0 8
+module work word00 8

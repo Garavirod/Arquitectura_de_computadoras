@@ -1,0 +1,4 @@
+@W: CD796 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\adder8bit0\adder8bit00.vhdl":18:7:18:8|Bit 8 of signal sb is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\adder8bit0\adder8bit00.vhdl":18:11:18:12|Bit 8 of signal sc is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\adder8bit0\adder8bit00.vhdl":18:15:18:16|Bit 8 of signal sa is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+

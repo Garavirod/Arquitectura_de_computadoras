@@ -1,0 +1,6 @@
+#Start recording tcl command: 2/14/2020 13:01:53
+#Project Location: C:/Users/monke/Desktop/Arquitectura/Practicas/Primer Parcial/adder8bit0; Project name: adder8bit0
+prj_project open "C:/Users/monke/Desktop/Arquitectura/Practicas/Primer Parcial/adder8bit0/adder8bit0.ldf"
+prj_project save
+prj_project close
+#Stop recording: 2/14/2020 13:12:51

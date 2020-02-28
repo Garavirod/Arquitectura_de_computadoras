@@ -1,0 +1,16 @@
+@N: CD630 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\word00.vhdl":7:7:7:12|Synthesizing work.word00.word0.
+@N: CD630 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\coder00.vhdl":6:7:6:13|Synthesizing work.coder00.coder0.
+Post processing for work.coder00.coder0
+@N: CD630 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@W: CL279 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\contring00.vhdl":19:2:19:3|Pruning register bits 3 to 1 of sring(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\word00\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Post processing for work.osc00.osc0
+Post processing for work.word00.word0

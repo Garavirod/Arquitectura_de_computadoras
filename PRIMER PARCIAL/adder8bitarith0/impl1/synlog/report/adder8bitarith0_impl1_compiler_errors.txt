@@ -1,0 +1,2 @@
+@E: CD297 :"C:\Users\monke\Desktop\Arquitectura\Practicas\Primer Parcial\adder8bitarith0\adder8bitarith00.vhdl":19:9:19:15|Width mismatch, location has width 9, value 8
+

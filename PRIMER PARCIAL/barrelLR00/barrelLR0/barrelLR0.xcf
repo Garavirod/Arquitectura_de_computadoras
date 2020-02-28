@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
-<ispXCF version="3.9.0">
+<ispXCF version="3.11.0">
 	<Comment></Comment>
 	<Chain>
 		<Comm>JTAG</Comm>
@@ -19,9 +19,9 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/barrelRL00/barrelRL0/barrelRL00_barrelRL0.jed</File>
-			<FileTime>11/03/18 01:52:02</FileTime>
-			<JedecChecksum>0x958A</JedecChecksum>
+			<File>C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/barrelLR00/barrelLR0/barrelLR00_barrelLR0.jed</File>
+			<FileTime>02/22/19 16:20:05</FileTime>
+			<JedecChecksum>0x9DB8</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -47,10 +47,6 @@
 	<CableOptions>
 		<CableName>USB2</CableName>
 		<PortAdd>FTUSB-0</PortAdd>
-		<USBID>Lattice FTUSB Interface Cable A Location 0000 Serial A</USBID>
-		<JTAGPinSetting>
-			TRST	ABSENT;
-			ISPEN	ABSENT;
-		</JTAGPinSetting>
+		<USBID>Lattice FTUSB Interface Cable A Location 0000</USBID>
 	</CableOptions>
 </ispXCF>

@@ -1,0 +1,23 @@
+#Start recording tcl command: 2/14/2020 13:43:51
+#Project Location: C:/Users/monke/Desktop/Arquitectura/Practicas/Primer Parcial/adder8bitarith0; Project name: adder8bitarith0
+C:/Users/monke/Desktop/Arquitectura/Practicas/Primer Parcial/mult8bit0
+mult8bit0
+#Start recording tcl command: 2/14/2020 14:12:37
+#Project Location: C:/Users/monke/Desktop/Arquitectura/Practicas/Primer Parcial/mult8bit0; Project name: mult8bit0
+prj_project new -name "adder8bitarith0" -impl "impl1" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/monke/Desktop/Arquitectura/Practicas/Primer Parcial/adder8bitarith0/adder8bitarith00.vhdl"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "C:/Users/monke/Desktop/Arquitectura/Practicas/Primer Parcial/adder8bitarith0/impl1/impl1.xcf"
+prj_src add -exclude "C:/Users/monke/Desktop/Arquitectura/Practicas/Primer Parcial/adder8bitarith0/impl1/impl1.xcf"
+prj_src enable "C:/Users/monke/Desktop/Arquitectura/Practicas/Primer Parcial/adder8bitarith0/impl1/impl1.xcf"
+pgr_program run
+pgr_project save "C:/Users/monke/Desktop/Arquitectura/Practicas/Primer Parcial/adder8bitarith0/impl1/impl1.xcf"
+prj_project save
+prj_project close
+prj_project new -name "mult8bit0" -impl "impl1" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+#Stop recording: 2/14/2020 14:12:37

@@ -1,0 +1,1 @@
+project -fileorder "C:/Program\ Files/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/monke/Desktop/Arquitectura/Practicas/Primer\ Parcial/adder8bitarith0/adder8bitarith00.vhdl" 
