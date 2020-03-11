@@ -1,0 +1,7 @@
+#Start recording tcl command: 3/6/2019 10:43:05
+#Project Location: C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/key00; Project name: key00
+prj_project open "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/key00/key00.ldf"
+prj_src add "C:/Users/GALILEA/Desktop/ESCOM/SEXTO SEMESTRE/Arquitectura de Computadoras/Projects/key00/topkey00.vhdl"
+prj_run Export -impl key0 -task Jedecgen
+prj_run Export -impl key0 -task Jedecgen
+#Stop recording: 3/6/2019 11:31:14

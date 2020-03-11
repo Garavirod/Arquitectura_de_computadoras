@@ -1,0 +1,3 @@
+@E: CD395 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram00.vhdl":31:9:31:10|Constant width 0 does not match context width 2
+@E: CD867 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram00.vhdl":31:9:31:10|Expecting an expression of type std_logic_vector
+

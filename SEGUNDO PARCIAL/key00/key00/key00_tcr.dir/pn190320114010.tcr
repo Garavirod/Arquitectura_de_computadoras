@@ -1,0 +1,17 @@
+#Start recording tcl command: 3/19/2019 11:19:36
+#Project Location: E:/Teclado/key00; Project name: key00
+E:/ram00
+ram00
+#Start recording tcl command: 3/20/2019 11:40:09
+#Project Location: E:/ram00; Project name: ram00
+prj_project open "E:/Teclado/key00/key00.ldf"
+prj_run Export -impl key0 -task Jedecgen
+pgr_project save "E:/Teclado/key00/key0/key0.xcf"
+prj_src add -exclude "E:/Teclado/key00/key0/key0.xcf"
+prj_src enable "E:/Teclado/key00/key0/key0.xcf"
+pgr_program run
+pgr_project save "E:/Teclado/key00/key0/key0.xcf"
+prj_project save
+prj_project close
+prj_project open "E:/ram00/ram00.ldf"
+#Stop recording: 3/20/2019 11:40:10

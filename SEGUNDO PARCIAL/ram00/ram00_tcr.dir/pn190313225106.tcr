@@ -1,0 +1,12 @@
+#Start recording tcl command: 3/13/2019 10:40:45
+#Project Location: C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00; Project name: ram00
+prj_project open "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/ram00.ldf"
+prj_src add "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/packageram00.vhdl"
+prj_run Export -impl ram0 -task Jedecgen
+prj_run Export -impl ram0 -task Jedecgen
+prj_src add "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/topram00.vhdl"
+prj_run Export -impl ram0 -task Jedecgen
+prj_run Export -impl ram0 -task Jedecgen
+prj_run Export -impl ram0 -task Jedecgen
+prj_run Export -impl ram0 -task Jedecgen
+#Stop recording: 3/13/2019 22:51:06
