@@ -1,82 +1,138 @@
-#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
-#install: C:\lscc\diamond\3.10_x64\synpbase
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: C:\lscc\diamond\3.11_x64\synpbase
 #OS: Windows 8 6.2
-#Hostname: LAPTOP-QF8PLV1N
+#Hostname: DESKTOP-P12ICFP
 
-# Wed Mar 20 17:16:34 2019
+# Tue Apr 21 17:07:21 2020
 
 #Implementation: ram0
 
-Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
-@N|Running in 64-bit mode
-Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
-@N|Running in 64-bit mode
-Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
 
-@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
-@N:"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\topram00.vhdl":7:7:7:14|Top entity is set to topram00.
-File C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\osc00.vhdl changed - recompiling
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\packagediv00.vhdl changed - recompiling
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\contring00.vhdl changed - recompiling
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\coder00.vhdl changed - recompiling
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram00.vhdl changed - recompiling
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\mux00.vhdl changed - recompiling
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\contRead00.vhdl changed - recompiling
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\packageram00.vhdl changed - recompiling
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\topdiv00.vhdl changed - recompiling
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\topram00.vhdl changed - recompiling
+Hostname: DESKTOP-P12ICFP
+
+Implementation : ram0
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-P12ICFP
+
+Implementation : ram0
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\topram00.vhdl":7:7:7:14|Top entity is set to topram00.
+Options changed - recompiling
 VHDL syntax check successful!
-File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\coder00.vhdl changed - recompiling
-@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\topram00.vhdl":7:7:7:14|Synthesizing work.topram00.topram0.
-@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\contRead00.vhdl":35:6:35:14|Removing redundant assignment.
+Options changed - recompiling
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\topram00.vhdl":7:7:7:14|Synthesizing work.topram00.topram0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\contRead00.vhdl":35:6:35:14|Removing redundant assignment.
 Post processing for work.contread00.contread0
-@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\mux00.vhdl":8:7:8:11|Synthesizing work.mux00.mux0.
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\mux00.vhdl":8:7:8:11|Synthesizing work.mux00.mux0.
 Post processing for work.mux00.mux0
-@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram00.vhdl":8:7:8:11|Synthesizing work.ram00.ram0.
+Running optimization stage 1 on mux00 .......
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram00.vhdl":8:7:8:11|Synthesizing work.ram00.ram0.
 Post processing for work.ram00.ram0
-@N: CL134 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram00.vhdl":23:7:23:13|Found RAM wordram, depth=64, width=7
-@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\coder00.vhdl":8:7:8:13|Synthesizing work.coder00.coder0.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\coder00.vhdl":49:9:49:16|Removing redundant assignment.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\coder00.vhdl":99:9:99:16|Removing redundant assignment.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\coder00.vhdl":149:9:149:16|Removing redundant assignment.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\coder00.vhdl":199:9:199:16|Removing redundant assignment.
+Running optimization stage 1 on ram00 .......
+@N: CL134 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram00.vhdl":23:7:23:13|Found RAM wordram, depth=64, width=7
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\coder00.vhdl":8:7:8:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\coder00.vhdl":49:9:49:16|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\coder00.vhdl":99:9:99:16|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\coder00.vhdl":149:9:149:16|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\coder00.vhdl":199:9:199:16|Removing redundant assignment.
 Post processing for work.coder00.coder0
-@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Running optimization stage 1 on coder00 .......
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
 Post processing for work.contring00.contring0
-@W: CL279 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\contring00.vhdl":19:2:19:3|Pruning register bits 2 to 0 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
-@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\div00.vhdl":28:6:28:11|Removing redundant assignment.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\div00.vhdl":36:6:36:11|Removing redundant assignment.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\div00.vhdl":44:6:44:11|Removing redundant assignment.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\div00.vhdl":52:6:52:11|Removing redundant assignment.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\div00.vhdl":60:6:60:11|Removing redundant assignment.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\div00.vhdl":68:6:68:11|Removing redundant assignment.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\div00.vhdl":76:6:76:11|Removing redundant assignment.
-@N: CD364 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\div00.vhdl":84:6:84:11|Removing redundant assignment.
+Running optimization stage 1 on contring00 .......
+@W: CL279 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\contring00.vhdl":19:2:19:3|Pruning register bits 2 to 0 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":36:6:36:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":44:6:44:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":52:6:52:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":60:6:60:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":68:6:68:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":76:6:76:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":84:6:84:11|Removing redundant assignment.
 Post processing for work.div00.div0
-@N: CD630 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
-@W: CD326 :"C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\osc00.vhdl":23:1:23:8|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
-@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD326 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl":23:1:23:8|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
 Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
 Post processing for work.topdiv00.topdiv0
+Running optimization stage 1 on topdiv00 .......
 Post processing for work.topram00.topram0
+Running optimization stage 1 on topram00 .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on topdiv00 .......
+Running optimization stage 2 on contring00 .......
+Running optimization stage 2 on coder00 .......
+Running optimization stage 2 on ram00 .......
+Running optimization stage 2 on mux00 .......
+Running optimization stage 2 on contRead00 .......
+Running optimization stage 2 on topram00 .......
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 80MB)
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 80MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 20 17:16:34 2019
+# Tue Apr 21 17:07:23 2020
 
 ###########################################################]
-Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-P12ICFP
+
+Implementation : ram0
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
 @N|Running in 64-bit mode
+File C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
 File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram0\synwork\layer0.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
@@ -84,65 +140,101 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 20 17:16:34 2019
+# Tue Apr 21 17:07:24 2020
 
 ###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0\synwork\ram00_ram0_comp.rt.csv
+
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 20 17:16:34 2019
+# Tue Apr 21 17:07:24 2020
 
 ###########################################################]
-Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-P12ICFP
+
+Database state : C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0\synwork\|ram0
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
 @N|Running in 64-bit mode
+File C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
 File C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram0\synwork\ram00_ram0_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 20 17:16:37 2019
+# Tue Apr 21 17:07:25 2020
 
 ###########################################################]
-Pre-mapping Report
+Premap Report
 
-# Wed Mar 20 17:16:38 2019
+# Tue Apr 21 17:07:26 2020
 
-Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
-Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-Product Version M-2017.03L-SP1-1
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-P12ICFP
+
+Implementation : ram0
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
 @A: MF827 |No constraint file specified.
-@L: C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram0\ram00_ram0_scck.rpt 
-Printing clock  summary report in "C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram0\ram00_ram0_scck.rpt" file 
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0\ram00_ram0_scck.rpt 
+Printing clock  summary report in "C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0\ram00_ram0_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
 
+@N: MF284 |Setting synthesis effort to medium for the design
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
-ICG Latch Removal Summary:
-Number of ICG latches removed:	0
-Number of ICG latches not removed:	0
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
 syn_allowed_resources : blockrams=26  set on top level netlist topram00
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
 
 
 
@@ -156,55 +248,109 @@ Level     Clock                            Frequency     Period        Type     
 1 .         div00|outdiv_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     42   
 ====================================================================================================================================================
 
-@W: MT529 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\topdiv00vhdl\div00.vhdl":20:2:20:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including RA00.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
+
+Clock Load Summary
+***********************
+
+                                 Clock     Source                          Clock Pin                 Non-clock Pin     Non-clock Pin
+Clock                            Load      Pin                             Seq Example               Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     22        RA00.D00.OSCInst0.OSC(OSCH)     RA00.D01.outdiv.C         -                 -            
+div00|outdiv_derived_clock       42        RA00.D01.outdiv.Q[0](dffe)      RA05.outcontrd[4:0].C     -                 -            
+====================================================================================================================================
+
+@W: MT529 :"c:\lscc\diamond\3.11_x64\bin\nt64\arqui\practicas\topdiv00vhdl\div00.vhdl":20:2:20:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including RA00.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 58 clock pin(s) of sequential element(s)
+0 instances converted, 58 sequential instances remain driven by gated/generated clocks
+
+================================================================== Gated/Generated Clocks ==================================================================
+Clock Tree ID     Driving Element           Drive Element Type     Unconverted Fanout     Sample Instance         Explanation                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       RA00.D01.outdiv.Q[0]      dffe                   36                     RA05.outcontrd[4:0]     Derived clock on input (not legal for GCC)
+@KP:ckid0_2       RA00.D00.OSCInst0.OSC     OSCH                   22                     RA00.D01.sdiv[20:0]     Black box on clock path                   
+============================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 143MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 143MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 143MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 142MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 143MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Mar 20 17:16:38 2019
+# Tue Apr 21 17:07:28 2020
 
 ###########################################################]
 Map & Optimize Report
 
-# Wed Mar 20 17:16:39 2019
+# Tue Apr 21 17:07:28 2020
 
-Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
-Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-Product Version M-2017.03L-SP1-1
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
 
+Hostname: DESKTOP-P12ICFP
+
+Implementation : ram0
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
 
 
-
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -214,105 +360,64 @@ Available hyper_sources - for debug and ip models
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
 
 
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 144MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 145MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
-
-
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
-
-
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 152MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 158MB peak: 160MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		   466.43ns		 127 /        57
+   1		0h:00m:02s		   466.00ns		 128 /        57
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 152MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 158MB peak: 160MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
-@N: FO126 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\ram00.vhdl":23:7:23:13|Generating RAM RA03.wordram[6:0]
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\contring00.vhdl":19:2:19:3|Boundary register RA01.outr_3_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\contring00.vhdl":19:2:19:3|Boundary register RA01.outr_2_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\contring00.vhdl":19:2:19:3|Boundary register RA01.outr_1_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\contring00.vhdl":19:2:19:3|Boundary register RA01.outr_0_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\coder00.vhdl":31:2:31:3|Boundary register RA02.outcontc_4_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\coder00.vhdl":31:2:31:3|Boundary register RA02.outcontc_3_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\coder00.vhdl":31:2:31:3|Boundary register RA02.outcontc_2_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\coder00.vhdl":31:2:31:3|Boundary register RA02.outcontc_1_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\coder00.vhdl":31:2:31:3|Boundary register RA02.outcontc_0_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\contread00.vhdl":23:2:23:3|Boundary register RA05.outcontrd_4_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\contread00.vhdl":23:2:23:3|Boundary register RA05.outcontrd_3_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\contread00.vhdl":23:2:23:3|Boundary register RA05.outcontrd_2_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\contread00.vhdl":23:2:23:3|Boundary register RA05.outcontrd_1_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\contread00.vhdl":23:2:23:3|Boundary register RA05.outcontrd_0_.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@A: BN291 :"c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\ram00\coder00.vhdl":31:2:31:3|Boundary register RA02.outflagc.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: FO126 :"c:\lscc\diamond\3.11_x64\bin\nt64\arqui\practicas\ram00\ram00.vhdl":23:7:23:13|Generating RAM RA03.wordram[6:0]
+@A: BN291 :"c:\lscc\diamond\3.11_x64\bin\nt64\arqui\practicas\ram00\coder00.vhdl":31:2:31:3|Boundary register RA02.outflagc.fb (in view: work.topram00(topram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 152MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 160MB)
 
 
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 123MB peak: 160MB)
 
-@S |Clock Optimization Summary
+Writing Analyst data base C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0\synwork\ram00_ram0_m.srm
 
-
-#### START OF CLOCK OPTIMIZATION REPORT #####[
-
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-2 gated/generated clock tree(s) driving 61 clock pin(s) of sequential element(s)
-0 instances converted, 61 sequential instances remain driven by gated/generated clocks
-
-================================================================================================== Gated/Generated Clocks ===================================================================================================
-Clock Tree ID     Driving Element       Drive Element Type     Fanout     Sample Instance      Explanation                                                                                                                   
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       RA00.D00.OSCInst0     OSCH                   57         RA00.D01.outdiv      Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-@K:CKID0002       RA00.D01.outdiv       FD1S3AX                4          RA03.wordram_ram     No gated clock conversion method for cell cell:LUCENT.DPR16X4C                                                                
-=============================================================================================================================================================================================================================
-
-
-##### END OF CLOCK OPTIMIZATION REPORT ######]
-
-
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 152MB)
-
-Writing Analyst data base C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram0\synwork\ram00_ram0_m.srm
-
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 152MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 156MB peak: 160MB)
 
 Writing EDIF Netlist and constraint files
-@N: FX1056 |Writing EDF file: C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram0\ram00_ram0.edi
-M-2017.03L-SP1-1
+@N: FX1056 |Writing EDF file: C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0\ram00_ram0.edi
+N-2018.03L-SP1-1
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 155MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 161MB peak: 163MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 154MB peak: 155MB)
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 161MB peak: 163MB)
 
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net RA00.D00.sclk.
 @N: MT615 |Found clock div00|outdiv_derived_clock with period 480.77ns 
-@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:RA00.D00.osc_int"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Mar 20 17:16:41 2019
+# Timing Report written on Tue Apr 21 17:07:34 2020
 #
 
 
@@ -336,7 +441,7 @@ Worst slack in design: 466.579
                                  Requested     Estimated     Requested     Estimated                 Clock                                           Clock              
 Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type                                            Group              
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-div00|outdiv_derived_clock       2.1 MHz       440.8 MHz     480.769       2.269         479.269     derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
+div00|outdiv_derived_clock       2.1 MHz       265.5 MHz     480.769       3.766         954.007     derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
 osc00|osc_int_inferred_clock     2.1 MHz       70.5 MHz      480.769       14.191        466.579     inferred                                        Inferred_clkgroup_0
 ========================================================================================================================================================================
 
@@ -352,8 +457,7 @@ Clocks                                                      |    rise  to  rise 
 Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     466.579  |  No paths    -      |  No paths    -      |  No paths    -    
-osc00|osc_int_inferred_clock  div00|outdiv_derived_clock    |  480.769     478.501  |  No paths    -      |  No paths    -      |  No paths    -    
-div00|outdiv_derived_clock    osc00|osc_int_inferred_clock  |  480.769     479.269  |  No paths    -      |  No paths    -      |  No paths    -    
+div00|outdiv_derived_clock    div00|outdiv_derived_clock    |  480.769     954.007  |  No paths    -      |  No paths    -      |  No paths    -    
 ====================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -376,24 +480,41 @@ Detailed Report for Clock: div00|outdiv_derived_clock
 Starting Points with Worst Slack
 ********************************
 
-                       Starting                                                              Arrival            
-Instance               Reference                      Type         Pin     Net               Time        Slack  
-                       Clock                                                                                    
-----------------------------------------------------------------------------------------------------------------
-RA03.wordram_ram       div00|outdiv_derived_clock     DPR16X4C     DO3     wordram_ram_2     0.972       479.269
-RA03.wordram_ram_1     div00|outdiv_derived_clock     DPR16X4C     DO3     wordram_ram_9     0.972       479.269
-================================================================================================================
+                     Starting                                                              Arrival            
+Instance             Reference                      Type        Pin     Net                Time        Slack  
+                     Clock                                                                                    
+--------------------------------------------------------------------------------------------------------------
+RA01.outr[1]         div00|outdiv_derived_clock     FD1S3IX     Q       outr0_c[1]         1.256       954.007
+RA01.outr[2]         div00|outdiv_derived_clock     FD1S3IX     Q       outr0_c[2]         1.256       954.007
+RA01.outr[0]         div00|outdiv_derived_clock     FD1S3IX     Q       outr0_c[0]         1.244       954.019
+RA01.outr[3]         div00|outdiv_derived_clock     FD1S3IX     Q       outr0_c[3]         1.236       954.027
+RA02.aux             div00|outdiv_derived_clock     FD1S3AX     Q       aux                1.188       954.283
+RA02.aux1            div00|outdiv_derived_clock     FD1S3AX     Q       aux1               1.180       954.291
+RA02.aux2            div00|outdiv_derived_clock     FD1S3AX     Q       aux2               1.180       954.291
+RA02.aux3            div00|outdiv_derived_clock     FD1S3AX     Q       aux3               1.180       954.291
+RA02.aux4            div00|outdiv_derived_clock     FD1S3AX     Q       aux4               1.148       954.323
+RA02.outcontc[0]     div00|outdiv_derived_clock     FD1S3JX     Q       outcontW0_c[0]     1.232       955.135
+==============================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                      Starting                                                          Required            
-Instance              Reference                      Type        Pin     Net            Time         Slack  
-                      Clock                                                                                 
-------------------------------------------------------------------------------------------------------------
-RA03.outwordra[3]     div00|outdiv_derived_clock     FD1P3JX     D       wordram[3]     480.858      479.269
-============================================================================================================
+                     Starting                                                                   Required            
+Instance             Reference                      Type        Pin     Net                     Time         Slack  
+                     Clock                                                                                          
+--------------------------------------------------------------------------------------------------------------------
+RA02.outcontc[3]     div00|outdiv_derived_clock     FD1S3JX     D       un1_outcontc_axbxc3     961.627      954.007
+RA02.outcontc[4]     div00|outdiv_derived_clock     FD1S3JX     D       un1_outcontc_axbxc4     961.627      954.007
+RA02.outcontc[0]     div00|outdiv_derived_clock     FD1S3JX     D       un1_outcontc_axbxc0     961.627      955.095
+RA02.outcontc[1]     div00|outdiv_derived_clock     FD1S3JX     D       un1_outcontc_axbxc1     961.627      955.095
+RA02.outcontc[2]     div00|outdiv_derived_clock     FD1S3JX     D       outcontc_RNO[2]         961.627      955.095
+RA02.outcoder[0]     div00|outdiv_derived_clock     FD1P3AX     SP      un1_rwc_11_i            961.067      955.096
+RA02.outcoder[1]     div00|outdiv_derived_clock     FD1P3AX     SP      un1_rwc_11_i            961.067      955.096
+RA02.outcoder[2]     div00|outdiv_derived_clock     FD1P3AX     SP      un1_rwc_11_i            961.067      955.096
+RA02.outcoder[3]     div00|outdiv_derived_clock     FD1P3AX     SP      un1_rwc_11_i            961.067      955.096
+RA02.outcoder[4]     div00|outdiv_derived_clock     FD1P3AX     SP      un1_rwc_11_i            961.067      955.096
+====================================================================================================================
 
 
 
@@ -402,31 +523,47 @@ Worst Path Information
 
 
 Path information for path number 1: 
-      Requested Period:                      480.769
+      Requested Period:                      961.538
     - Setup time:                            -0.089
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         480.858
+    = Required time:                         961.627
 
-    - Propagation time:                      1.589
+    - Propagation time:                      7.621
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 479.269
+    = Slack (non-critical) :                 954.007
 
-    Number of logic level(s):                1
-    Starting point:                          RA03.wordram_ram / DO3
-    Ending point:                            RA03.outwordra[3] / D
-    The start point is clocked by            div00|outdiv_derived_clock [rising] on pin WCK
-    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    Number of logic level(s):                6
+    Starting point:                          RA01.outr[1] / Q
+    Ending point:                            RA02.outcontc[3] / D
+    The start point is clocked by            div00|outdiv_derived_clock [rising] on pin CK
+    The end   point is clocked by            div00|outdiv_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div00|outdiv_derived_clock to c:div00|outdiv_derived_clock)
 
-Instance / Net                         Pin      Pin               Arrival     No. of    
-Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------
-RA03.wordram_ram          DPR16X4C     DO3      Out     0.972     0.972       -         
-wordram_ram_2             Net          -        -       -         -           1         
-RA03.outwordra_RNO[3]     ORCALUT4     A        In      0.000     0.972       -         
-RA03.outwordra_RNO[3]     ORCALUT4     Z        Out     0.617     1.589       -         
-wordram[3]                Net          -        -       -         -           1         
-RA03.outwordra[3]         FD1P3JX      D        In      0.000     1.589       -         
-========================================================================================
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+RA01.outr[1]                 FD1S3IX      Q        Out     1.256     1.256       -         
+outr0_c[1]                   Net          -        -       -         -           14        
+RA02.pcoder\.aux184          ORCALUT4     B        In      0.000     1.256       -         
+RA02.pcoder\.aux184          ORCALUT4     Z        Out     1.225     2.481       -         
+aux184                       Net          -        -       -         -           5         
+RA02.pcoder\.un1_aux183      ORCALUT4     B        In      0.000     2.481       -         
+RA02.pcoder\.un1_aux183      ORCALUT4     Z        Out     1.153     3.633       -         
+un1_aux183                   Net          -        -       -         -           3         
+RA02.un1_aux187_1            ORCALUT4     B        In      0.000     3.633       -         
+RA02.un1_aux187_1            ORCALUT4     Z        Out     1.089     4.722       -         
+un1_aux187_1                 Net          -        -       -         -           2         
+RA02.un1_rwc_11              ORCALUT4     A        In      0.000     4.722       -         
+RA02.un1_rwc_11              ORCALUT4     Z        Out     1.193     5.915       -         
+un1_rwc_11                   Net          -        -       -         -           4         
+RA02.un1_outcontc_ac0_1      ORCALUT4     A        In      0.000     5.915       -         
+RA02.un1_outcontc_ac0_1      ORCALUT4     Z        Out     1.089     7.004       -         
+un1_outcontc_c2              Net          -        -       -         -           2         
+RA02.un1_outcontc_axbxc3     ORCALUT4     A        In      0.000     7.004       -         
+RA02.un1_outcontc_axbxc3     ORCALUT4     Z        Out     0.617     7.621       -         
+un1_outcontc_axbxc3          Net          -        -       -         -           1         
+RA02.outcontc[3]             FD1S3JX      D        In      0.000     7.621       -         
+===========================================================================================
 
 
 
@@ -503,27 +640,27 @@ Name                                  Type         Name     Dir     Delay     Ti
 ----------------------------------------------------------------------------------------------------
 RA00.D01.sdiv[0]                      FD1S3IX      Q        Out     1.044     1.044       -         
 sdiv[0]                               Net          -        -       -         -           2         
-RA00.D01.outdiv_0_sqmuxa_7_i_a2_6     ORCALUT4     A        In      0.000     1.044       -         
-RA00.D01.outdiv_0_sqmuxa_7_i_a2_6     ORCALUT4     Z        Out     1.017     2.061       -         
-outdiv_0_sqmuxa_7_i_a2_6              Net          -        -       -         -           1         
-RA00.D01.outdiv_0_sqmuxa_7_i_a2       ORCALUT4     A        In      0.000     2.061       -         
+RA00.D01.outdiv_0_sqmuxa_7_i_a2_7     ORCALUT4     A        In      0.000     1.044       -         
+RA00.D01.outdiv_0_sqmuxa_7_i_a2_7     ORCALUT4     Z        Out     1.017     2.061       -         
+outdiv_0_sqmuxa_7_i_a2_7              Net          -        -       -         -           1         
+RA00.D01.outdiv_0_sqmuxa_7_i_a2       ORCALUT4     B        In      0.000     2.061       -         
 RA00.D01.outdiv_0_sqmuxa_7_i_a2       ORCALUT4     Z        Out     1.089     3.149       -         
 outdiv_0_sqmuxa_7_i_a2                Net          -        -       -         -           2         
 RA00.D01.outdiv_0_sqmuxa_6_i_a2_0     ORCALUT4     A        In      0.000     3.149       -         
 RA00.D01.outdiv_0_sqmuxa_6_i_a2_0     ORCALUT4     Z        Out     1.153     4.302       -         
-N_99                                  Net          -        -       -         -           3         
+N_73                                  Net          -        -       -         -           3         
 RA00.D01.outdiv_0_sqmuxa_4_i_a2_0     ORCALUT4     A        In      0.000     4.302       -         
 RA00.D01.outdiv_0_sqmuxa_4_i_a2_0     ORCALUT4     Z        Out     1.193     5.495       -         
-N_100                                 Net          -        -       -         -           4         
-RA00.D01.outdiv_0_sqmuxa_3_i_a6       ORCALUT4     B        In      0.000     5.495       -         
-RA00.D01.outdiv_0_sqmuxa_3_i_a6       ORCALUT4     Z        Out     1.017     6.512       -         
-N_77                                  Net          -        -       -         -           1         
-RA00.D01.outdiv_0_sqmuxa_3_i          ORCALUT4     A        In      0.000     6.512       -         
-RA00.D01.outdiv_0_sqmuxa_3_i          ORCALUT4     Z        Out     1.089     7.601       -         
-N_16                                  Net          -        -       -         -           2         
-RA00.D01.un1_sdiv69_3                 ORCALUT4     A        In      0.000     7.601       -         
-RA00.D01.un1_sdiv69_3                 ORCALUT4     Z        Out     1.089     8.689       -         
-un1_sdiv69_3                          Net          -        -       -         -           2         
+N_74                                  Net          -        -       -         -           4         
+RA00.D01.outdiv_0_sqmuxa_4_i          ORCALUT4     B        In      0.000     5.495       -         
+RA00.D01.outdiv_0_sqmuxa_4_i          ORCALUT4     Z        Out     1.089     6.584       -         
+N_14                                  Net          -        -       -         -           2         
+RA00.D01.un1_sdiv69_4_1               ORCALUT4     B        In      0.000     6.584       -         
+RA00.D01.un1_sdiv69_4_1               ORCALUT4     Z        Out     1.017     7.601       -         
+un1_sdiv69_4_1                        Net          -        -       -         -           1         
+RA00.D01.un1_sdiv69_4                 ORCALUT4     D        In      0.000     7.601       -         
+RA00.D01.un1_sdiv69_4                 ORCALUT4     Z        Out     1.089     8.689       -         
+un1_sdiv69_4                          Net          -        -       -         -           2         
 RA00.D01.un1_sdiv69_i                 ORCALUT4     A        In      0.000     8.689       -         
 RA00.D01.un1_sdiv69_i                 ORCALUT4     Z        Out     1.017     9.706       -         
 un1_sdiv69_i                          Net          -        -       -         -           1         
@@ -570,10 +707,10 @@ RA00.D01.sdiv[20]                     FD1S3IX      D        In      0.000     14
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 154MB peak: 155MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 161MB peak: 163MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 154MB peak: 155MB)
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 161MB peak: 163MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -588,24 +725,27 @@ Details:
 CCU2D:          15
 DPR16X4C:       4
 FD1P3AX:        7
-FD1P3IX:        10
-FD1P3JX:        17
-FD1S3AX:        1
-FD1S3IX:        21
-FD1S3JX:        1
+FD1P3IX:        1
+FD1P3JX:        7
+FD1S3AX:        6
+FD1S3IX:        30
+FD1S3JX:        6
 GSR:            1
 IB:             11
+INV:            1
 OB:             31
-ORCALUT4:       134
+ORCALUT4:       132
 OSCH:           1
 PUR:            1
-VHI:            9
-VLO:            9
+VHI:            6
+VLO:            7
+false:          2
+true:           3
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 33MB peak: 155MB)
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 32MB peak: 163MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
-# Wed Mar 20 17:16:41 2019
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+# Tue Apr 21 17:07:34 2020
 
 ###########################################################]

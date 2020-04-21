@@ -3,7 +3,7 @@ Running in Lattice mode
 Starting:    C:\lscc\diamond\3.11_x64\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.11_x64\synpbase
 Hostname:    DESKTOP-P12ICFP
-Date:        Wed Mar 11 10:49:53 2020
+Date:        Tue Apr 21 15:28:08 2020
 Version:     N-2018.03L-SP1-1
 
 Arguments:   -product synplify_pro -batch key00_key0_synplify.tcl
@@ -19,66 +19,66 @@ Generating HDL info...
 Copied C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\key00_key0.srr to C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\key00_key0.srf
 
 hdl_info_gen completed
-# Wed Mar 11 10:49:59 2020
+# Tue Apr 21 15:28:10 2020
 
 Return Code: 0
-Run Time:00h:00m:03s
+Run Time:00h:00m:01s
 log file: "C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\key00_key0.srr"
 Running: key0 in foreground
 
 Running proj_1|key0
 
 Running Flow: compile (Compile) on proj_1|key0
-# Wed Mar 11 10:50:00 2020
+# Tue Apr 21 15:28:11 2020
 
 Running Flow: compile_flow (Compile Process) on proj_1|key0
-# Wed Mar 11 10:50:00 2020
+# Tue Apr 21 15:28:11 2020
 
 Running: compiler (Compile Input) on proj_1|key0
-# Wed Mar 11 10:50:00 2020
+# Tue Apr 21 15:28:11 2020
 Copied C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\synwork\key00_key0_comp.srs to C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\key00_key0.srs
 
 compiler completed
-# Wed Mar 11 10:50:08 2020
+# Tue Apr 21 15:28:14 2020
 
 Return Code: 0
-Run Time:00h:00m:08s
+Run Time:00h:00m:03s
 
 Running: multi_srs_gen (Multi-srs Generator) on proj_1|key0
-# Wed Mar 11 10:50:08 2020
+# Tue Apr 21 15:28:14 2020
 
 multi_srs_gen completed
-# Wed Mar 11 10:50:09 2020
+# Tue Apr 21 15:28:14 2020
 
 Return Code: 0
-Run Time:00h:00m:01s
+Run Time:00h:00m:00s
 Copied C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\synwork\key00_key0_mult.srs to C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\key00_key0.srs
 Copied C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\key00_key0.srr to C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\key00_key0.srf
 Complete: Compile Process on proj_1|key0
 
 Running: premap (Premap) on proj_1|key0
-# Wed Mar 11 10:50:09 2020
+# Tue Apr 21 15:28:14 2020
 
 premap completed with warnings
-# Wed Mar 11 10:50:16 2020
+# Tue Apr 21 15:28:17 2020
 
 Return Code: 1
-Run Time:00h:00m:07s
+Run Time:00h:00m:03s
 Complete: Compile on proj_1|key0
 
 Running Flow: map (Map) on proj_1|key0
-# Wed Mar 11 10:50:17 2020
+# Tue Apr 21 15:28:17 2020
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on proj_1|key0
-# Wed Mar 11 10:50:17 2020
+# Tue Apr 21 15:28:17 2020
 Copied C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\synwork\key00_key0_m.srm to C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\key00_key0.srm
 
 fpga_mapper completed with warnings
-# Wed Mar 11 10:50:27 2020
+# Tue Apr 21 15:28:23 2020
 
 Return Code: 1
-Run Time:00h:00m:10s
+Run Time:00h:00m:06s
 Complete: Map on proj_1|key0
 Copied C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\key00_key0.srr to C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\key00_key0.srf
 Complete: Logic Synthesis on proj_1|key0

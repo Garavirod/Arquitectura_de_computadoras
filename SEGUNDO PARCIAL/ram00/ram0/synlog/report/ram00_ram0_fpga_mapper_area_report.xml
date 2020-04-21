@@ -5,7 +5,7 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram0\synlog\report\ram00_ram0_fpga_mapper_resourceusage.rpt</data>
+<data>C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0\synlog\report\ram00_ram0_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <parameter tooltip="Total Register bits used" name="Register bits">
@@ -21,6 +21,6 @@ The file contains the area information from mapper to be displayed as part of th
 <data>0</data>
 </parameter>
 <parameter tcl_name="total_luts" tooltip="Total ORCA LUTs used" name="ORCA LUTs">
-<data>134</data>
+<data>132</data>
 </parameter>
 </report_table>

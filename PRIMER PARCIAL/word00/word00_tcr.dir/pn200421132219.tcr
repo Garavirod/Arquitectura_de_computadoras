@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/21/2020 13:06:25
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/word00; Project name: word00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/PRIMER PARCIAL/word00/word00.ldf"
+prj_project close
+#Stop recording: 4/21/2020 13:22:19

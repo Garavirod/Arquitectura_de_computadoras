@@ -15,14 +15,13 @@ Database state : C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\k
 Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
-File C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
-File E:\Teclado\key00\key0\synwork\key00_key0_comp.srs changed - recompiling
+File C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\synwork\key00_key0_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 11 10:50:09 2020
+# Tue Apr 21 15:28:14 2020
 
 ###########################################################]

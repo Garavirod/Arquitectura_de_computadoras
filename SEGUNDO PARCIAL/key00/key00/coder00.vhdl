@@ -31,25 +31,25 @@ begin
 							if(aux = '0' and aux2 = '0' and aux3 = '0' and aux4 = '0') then
 								aux:= '1'; --resolviendo problema del rebote
 								aux1:= '1';
-								outcoder <= "1001111"; -- 1
+								outcoder <= "0110000"; -- 1
 							end if;
 						when "0010" =>
 							if(aux = '0' and aux2 = '0' and aux3 = '0' and aux4 = '0') then
 								aux:= '1';
 								aux1:= '1';
-								outcoder <= "0010010"; -- 2
+								outcoder <= "1101101"; -- 2
 							end if;
 						when "0100" =>
 							if(aux = '0' and aux2 = '0' and aux3 = '0' and aux4 = '0') then
 								aux:= '1'; 
 								aux1:= '1';
-								outcoder <= "0000110"; -- 3
+								outcoder <= "1111001"; -- 3
 							end if;
 						when "1000" =>
 							if(aux = '0' and aux2 = '0' and aux3 = '0' and aux4 = '0') then
 								aux:= '1';
 								aux1:= '1';
-								outcoder <= "0001000"; -- A
+								outcoder <= "1110111"; -- A
 							end if;
 						when others => null;
 					end case;
@@ -63,25 +63,25 @@ begin
 							if(aux = '0' and aux1 = '0' and aux3 = '0' and aux4 = '0') then
 								aux:= '1'; 
 								aux2:= '1';
-								outcoder <= "1001100"; -- 4
+								outcoder <= "0110011"; -- 4
 							end if;
 						when "0010" =>
 							if(aux = '0' and aux1 = '0' and aux3 = '0' and aux4 = '0') then
 								aux:= '1';
 								aux2:= '1';
-								outcoder <= "0100100"; -- 5
+								outcoder <= "1011011"; -- 5
 							end if;
 						when "0100" =>
 							if(aux = '0' and aux1 = '0' and aux3 = '0' and aux4 = '0') then
 								aux:= '1';
 								aux2:= '1';
-								outcoder <= "0100000"; -- 6
+								outcoder <= "1011111"; -- 6
 							end if;
 						when "1000" =>
 							if(aux = '0' and aux1 = '0' and aux3 = '0' and aux4 = '0') then
 								aux:= '1';
 								aux2:= '1';								
-								outcoder <= "1100000"; -- b
+								outcoder <= "0011111"; -- b
 							end if;
 						when others => null;
 					end case;
@@ -95,25 +95,25 @@ begin
 							if(aux = '0' and aux1 = '0' and aux2 = '0' and aux4 = '0') then
 								aux:= '1';
 								aux3:= '1';
-								outcoder <= "0001111"; -- 7
+								outcoder <= "1110000"; -- 7
 							end if;
 						when "0010" =>
 							if(aux = '0' and aux1 = '0' and aux2 = '0' and aux4 = '0') then
 								aux:= '1';
 								aux3:= '1';
-								outcoder <= "0000000"; -- 8
+								outcoder <= "1111111"; -- 8
 							end if;
 						when "0100" =>
 							if(aux = '0' and aux1 = '0' and aux2 = '0' and aux4 = '0') then
 								aux:= '1';
 								aux3:= '1';
-								outcoder <= "0000100"; -- 9
+								outcoder <= "1111011"; -- 9
 							end if;
 						when "1000" =>
 							if(aux = '0' and aux1 = '0' and aux2 = '0' and aux4 = '0') then
 								aux:= '1';
 								aux3:= '1';
-								outcoder <= "0110001"; -- C
+								outcoder <= "1001110"; -- C
 							end if;
 						when others => null;
 					end case;
@@ -127,19 +127,19 @@ begin
 							if(aux = '0' and aux1 = '0' and aux2 = '0' and aux3 = '0') then
 								aux:= '1';
 								aux4:= '1';
-								outcoder <= "0011100"; -- *
+								outcoder <= "1100011"; -- *
 							end if;
 						when "0010" =>
 							if(aux = '0' and aux1 = '0' and aux2 = '0' and aux3 = '0') then
 								aux:= '1';
 								aux4:= '1';
-								outcoder <= "0000001"; -- 0
+								outcoder <= "1111110"; -- 0
 							end if;
 						when "0100" =>
 							if(aux = '0' and aux1 = '0' and aux2 = '0' and aux3 = '0') then
 								aux:= '1';
 								aux4:= '1';
-								outcoder <= "1100010"; -- +
+								outcoder <= "0011101"; -- +
 							end if;
 						when "1000" =>
 							if(aux = '0' and aux1 = '0' and aux2 = '0' and aux3 = '0') then

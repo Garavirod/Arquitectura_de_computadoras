@@ -6,37 +6,38 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1553123814"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1587507699"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1553123803">
-            <Task name="Map" build_result="2" update_result="0" update_time="1553123803"/>
+        <Milestone name="Map" build_result="2" build_time="1587507650">
+            <Task name="Map" build_result="2" update_result="0" update_time="1587507650"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1553123812">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1553123812"/>
-            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+        <Milestone name="PAR" build_result="2" build_time="1587507684">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1587507684"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1587507687"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1553123802">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1553123802"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1587506855">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1587506855"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1553276637"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1587506828"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1553123802">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1553123802"/>
+        <Milestone name="Translate" build_result="2" build_time="1587506856">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1587506856"/>
         </Milestone>
-        <Report name="ram00_ram0.bgn" last_build_time="1553123814" last_build_size="4296"/>
-        <Report name="ram00_ram0.edi" last_build_time="1553123801" last_build_size="162830"/>
-        <Report name="ram00_ram0.jed" last_build_time="1553123814" last_build_size="1465836"/>
-        <Report name="ram00_ram0.ncd" last_build_time="1553123812" last_build_size="208057"/>
-        <Report name="ram00_ram0.ngd" last_build_time="1553123802" last_build_size="156478"/>
-        <Report name="ram00_ram0_map.ncd" last_build_time="1553123803" last_build_size="143457"/>
+        <Report name="ram00_ram0.bgn" last_build_time="1587507699" last_build_size="4367"/>
+        <Report name="ram00_ram0.edi" last_build_time="1587506853" last_build_size="157984"/>
+        <Report name="ram00_ram0.jed" last_build_time="1587507699" last_build_size="1465836"/>
+        <Report name="ram00_ram0.ncd" last_build_time="1587507684" last_build_size="204983"/>
+        <Report name="ram00_ram0.ngd" last_build_time="1587506856" last_build_size="154912"/>
+        <Report name="ram00_ram0.twr" last_build_time="1587507687" last_build_size="56841"/>
+        <Report name="ram00_ram0_map.ncd" last_build_time="1587507650" last_build_size="141972"/>
     </Strategy>
 </BuildStatus>

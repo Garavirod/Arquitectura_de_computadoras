@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram0\synlog\ram00_ram0_fpga_mapper.srr</data>
+<data>C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0\synlog\ram00_ram0_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -17,8 +17,8 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>div00|outdiv_derived_clock</data>
 <data>2.1 MHz</data>
-<data>440.8 MHz</data>
-<data>479.269</data>
+<data>265.5 MHz</data>
+<data>954.007</data>
 </row>
 <row>
 <data>osc00|osc_int_inferred_clock</data>

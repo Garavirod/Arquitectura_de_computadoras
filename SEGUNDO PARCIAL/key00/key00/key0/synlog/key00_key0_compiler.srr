@@ -33,9 +33,16 @@ Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:1
 
 @N|Running in 64-bit mode
 @N:"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\topkey00.vhdl":7:7:7:14|Top entity is set to topkey00.
-Options changed - recompiling
+File C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\topdiv00VHDL\osc00.vhdl changed - recompiling
+File C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\topdiv00VHDL\packagediv00.vhdl changed - recompiling
+File C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\contring00.vhdl changed - recompiling
+File C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\coder00.vhdl changed - recompiling
+File C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\packagekey00.vhdl changed - recompiling
+File C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\topdiv00VHDL\topdiv00.vhdl changed - recompiling
+File C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\topkey00.vhdl changed - recompiling
 VHDL syntax check successful!
-Options changed - recompiling
+File C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\coder00.vhdl changed - recompiling
 @N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\topkey00.vhdl":7:7:7:14|Synthesizing work.topkey00.topkey0.
 @N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\coder00.vhdl":6:7:6:13|Synthesizing work.coder00.coder0.
 Post processing for work.coder00.coder0
@@ -80,12 +87,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 79MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 79MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 11 10:50:03 2020
+# Tue Apr 21 15:28:12 2020
 
 ###########################################################]
 
@@ -105,15 +112,14 @@ Implementation : key0
 Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
-File C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
-File E:\Teclado\key00\key0\synwork\layer0.srs changed - recompiling
+File C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\key00\key00\key0\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 11 10:50:05 2020
+# Tue Apr 21 15:28:13 2020
 
 ###########################################################]
 
@@ -123,11 +129,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 11 10:50:05 2020
+# Tue Apr 21 15:28:13 2020
 
 ###########################################################]

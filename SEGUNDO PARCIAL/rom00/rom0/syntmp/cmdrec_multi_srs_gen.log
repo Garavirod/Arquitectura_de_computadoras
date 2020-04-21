@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toprom00  -multisrs  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rom00\rom0\synwork\rom00_rom0_comp.srs  -osyn  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rom00\rom0\synwork\rom00_rom0_mult.srs  -log  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rom00\rom0\synlog\rom00_rom0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe -link -top toprom00 -multisrs ..\synwork\rom00_rom0_comp.srs -osyn ..\synwork\rom00_rom0_mult.srs -log ..\synlog\rom00_rom0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\rom00_rom0_comp.srs|io:i|time:1587506170|size:7727|exec:0|csum:35B49C18453A70A4AD16CEBA599ABACE
+file:..\synwork\rom00_rom0_mult.srs|io:o|time:1587506172|size:2858|exec:0|csum:
+file:..\synlog\rom00_rom0_multi_srs_gen.srr|io:o|time:1587506172|size:1165|exec:0|csum:
+file:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe|io:i|time:1554132152|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

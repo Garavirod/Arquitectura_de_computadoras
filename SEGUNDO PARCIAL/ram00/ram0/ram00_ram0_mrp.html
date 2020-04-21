@@ -15,42 +15,41 @@
 
 Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
      ram00_ram0.ngd -o ram00_ram0_map.ncd -pr ram00_ram0.prf -mp ram00_ram0.mrp
-     -lpf C:/Users/atzir/Documents/6 semestre/arqui/Proyectos
-     Arqui/Proyectos/ram00/ram0/ram00_ram0_synplify.lpf -lpf
-     C:/Users/atzir/Documents/6 semestre/arqui/Proyectos
-     Arqui/Proyectos/ram00/ram00.lpf -c 0 -gui -msgset
-     C:/Users/atzir/Documents/6 semestre/arqui/Proyectos
-     Arqui/Proyectos/ram00/promote.xml 
+     -lpf C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/ram0/ram00_ram
+     0_synplify.lpf -lpf
+     C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/ram00.lpf -c 0 -gui
+     -msgset C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/promote.xml
+     
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
-Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  03/20/19  17:16:42
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
+Mapped on:  04/21/20  17:20:46
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
    Number of registers:     57 out of  7209 (1%)
       PFU registers:           57 out of  6864 (1%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        95 out of  3432 (3%)
-      SLICEs as Logic/ROM:     83 out of  3432 (2%)
+   Number of SLICEs:        94 out of  3432 (3%)
+      SLICEs as Logic/ROM:     82 out of  3432 (2%)
       SLICEs as RAM:           12 out of  2574 (0%)
       SLICEs as Carry:         15 out of  3432 (0%)
-   Number of LUT4s:        190 out of  6864 (3%)
-      Number used as logic LUTs:        136
+   Number of LUT4s:        188 out of  6864 (3%)
+      Number used as logic LUTs:        134
       Number used as distributed RAM:    24
       Number used as ripple logic:       30
       Number used as shift registers:     0
    Number of PIO sites used: 42 + 4(JTAG) out of 115 (40%)
    Number of block RAMs:  0 out of 26 (0%)
-   Number of GSRs:  0 out of 1 (0%)
-   EFB used :       No
-   JTAG used :      No
-   Readback used :  No
-   Oscillator used :  Yes
-   Startup used :   No
-   POR :            On
-   Bandgap :        On
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : Yes
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
    Number of Power Controller:  0 out of 1 (0%)
    Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
    Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
@@ -67,35 +66,30 @@ Mapped on:  03/20/19  17:16:42
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  2
+     Net clk00_c: 29 loads, 29 rising, 0 falling (Driver: RA00/D01/outdiv )
 
-     Net clk00_c: 8 loads, 8 rising, 0 falling (Driver: RA00/D01/outdiv )
-     Net RA00.sclk_0: 34 loads, 34 rising, 0 falling (Driver: RA00/D00/OSCInst0
-     )
-   Number of Clock Enables:  4
-     Net un1_outdiv_0_sqmuxa_1_3_RNI8GJD1: 11 loads, 11 LSLICEs
-     Net RA03/outwordra_cnv[0]: 4 loads, 4 LSLICEs
-     Net RA02/outcoder_0_sqmuxa_4_RNITCEA2: 5 loads, 5 LSLICEs
-     Net RA02/outflagc_RNO: 1 loads, 1 LSLICEs
-   Number of LSRs:  7
-     Net RA05/outcontrd_49: 3 loads, 3 LSLICEs
-     Net RA03/outwordra_51: 4 loads, 4 LSLICEs
-     Net RA02/outcoder_0_sqmuxa_4_RNIK3GI2: 3 loads, 3 LSLICEs
-     Net un1_outdiv_0_sqmuxa_1_3_RNICPN42: 4 loads, 4 LSLICEs
-     Net un1_outdiv_0_sqmuxa_1_3_RNIV6LL1: 2 loads, 2 LSLICEs
-     Net RA01/fb: 1 loads, 1 LSLICEs
-     Net RA00/D01/outdiv_0_sqmuxa_i_RNIC1UL: 11 loads, 11 LSLICEs
+     Net RA00/sclk: 12 loads, 12 rising, 0 falling (Driver: RA00/D00/OSCInst0 )
+   Number of Clock Enables:  3
+     Net RA03.pram.outwordra9_i: 4 loads, 4 LSLICEs
+     Net RA02/un1_rwc_1_i: 1 loads, 1 LSLICEs
+     Net RA02/un1_rwc_11_i: 4 loads, 4 LSLICEs
+   Number of LSRs:  4
+     Net en0_c: 7 loads, 7 LSLICEs
+     Net RA05/N_8_1_i: 3 loads, 3 LSLICEs
+     Net RA02/outcoder60: 4 loads, 4 LSLICEs
+     Net RA00/D01/un1_sdiv69_RNIC1UL: 11 loads, 11 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net rw0_c: 22 loads
-     Net en0_c: 20 loads
+     Net en0_c: 29 loads
      Net outcontR0_c[0]: 20 loads
-     Net un1_outdiv_0_sqmuxa_1_3_RNI8GJD1: 20 loads
      Net outcontR0_c[1]: 19 loads
      Net outcontR0_c[2]: 19 loads
      Net outcontR0_c[3]: 18 loads
-     Net outr0_c[1]: 15 loads
+     Net rw0_c: 18 loads
+     Net outr0_c[1]: 14 loads
      Net outr0_c[2]: 14 loads
      Net inkey0_c[1]: 12 loads
+     Net outr0_c[0]: 12 loads
 
 
 
@@ -127,13 +121,13 @@ Mapped on:  03/20/19  17:16:42
 +---------------------+-----------+-----------+------------+
 | outtransist0[2]     | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-
 | outtransist0[1]     | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | outtransist0[0]     | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | outword0[6]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
+
 | outword0[5]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | outword0[4]         | OUTPUT    | LVCMOS25  |            |
@@ -184,13 +178,13 @@ Mapped on:  03/20/19  17:16:42
 +---------------------+-----------+-----------+------------+
 | outr0[0]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-
 | inkey0[3]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | inkey0[2]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | inkey0[1]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
+
 | inkey0[0]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | rw0                 | INPUT     | LVCMOS25  |            |
@@ -212,18 +206,14 @@ Mapped on:  03/20/19  17:16:42
 
 Block RA03/GND undriven or does not drive anything - clipped.
 Block GSR_INST undriven or does not drive anything - clipped.
-Block RA00/GND undriven or does not drive anything - clipped.
-Block RA00/VCC undriven or does not drive anything - clipped.
-Block RA00/D00/VCC undriven or does not drive anything - clipped.
 Block RA00/D01/VCC undriven or does not drive anything - clipped.
 Block RA01/VCC undriven or does not drive anything - clipped.
-Block RA01/GND undriven or does not drive anything - clipped.
 Block RA02/GND undriven or does not drive anything - clipped.
 Block RA02/VCC undriven or does not drive anything - clipped.
 Block RA03/VCC undriven or does not drive anything - clipped.
-Block RA04/VCC undriven or does not drive anything - clipped.
 Block RA04/GND undriven or does not drive anything - clipped.
 Block RA05/VCC undriven or does not drive anything - clipped.
+Signal en0_c_i was merged into signal en0_c
 Signal RA00/D00/GND undriven or does not drive anything - clipped.
 Signal RA00/D01/GND undriven or does not drive anything - clipped.
 Signal RA05/GND undriven or does not drive anything - clipped.
@@ -242,7 +232,6 @@ Signal RA05/un1_outcontrd_cry_1_0_S0 undriven or does not drive anything -
      clipped.
 Signal RA05/un1_outcontrd_cry_3_0_S1 undriven or does not drive anything -
      clipped.
-
 Signal RA05/un1_outcontrd_cry_3_0_S0 undriven or does not drive anything -
      clipped.
 Signal RA05/un1_outcontrd_cry_4_0_S1 undriven or does not drive anything -
@@ -253,7 +242,9 @@ Signal RA05/un1_outcontrd_cry_0_0_S1 undriven or does not drive anything -
      clipped.
 Signal RA05/un1_outcontrd_cry_0_0_S0 undriven or does not drive anything -
      clipped.
+
 Signal RA05/N_1 undriven or does not drive anything - clipped.
+Block en0_pad_RNINM18 was optimized away.
 Block RA00/D00/GND was optimized away.
 Block RA00/D01/GND was optimized away.
 Block RA05/GND was optimized away.
@@ -292,7 +283,7 @@ OSC 1:                                     Pin/Node Value
   OSC Instance Name:                                RA00/D00/OSCInst0
   OSC Type:                                         OSCH
   STDBY Input:                                      NONE
-  OSC Output:                              NODE     RA00.sclk_0
+  OSC Output:                              NODE     RA00/sclk
   OSC Nominal Frequency (MHz):                      2.08
 
 
@@ -305,63 +296,13 @@ Instance Name: RA00/D00/OSCInst0
 
 
 
-
 <A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
 -------------------------
 
-   Total CPU Time: 0 secs  
-   Total REAL Time: 0 secs  
+   Total CPU Time: 2 secs  
+   Total REAL Time: 4 secs  
    Peak Memory Usage: 59 MB
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -370,7 +311,7 @@ Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
      Copyright (c) 1995 AT&T Corp.   All rights reserved.
      Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
      Copyright (c) 2001 Agere Systems   All rights reserved.
-     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights
      reserved.
 
 

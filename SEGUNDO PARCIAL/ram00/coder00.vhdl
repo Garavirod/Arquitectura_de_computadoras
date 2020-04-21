@@ -52,7 +52,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux2 = '0' and aux3 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux1:= '1';
-										outcoder <= "1001111"; -- 1
+										outcoder <= "0110000"; -- 1
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -62,7 +62,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux2 = '0' and aux3 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux1:= '1';
-										outcoder <= "0010010"; -- 2
+										outcoder <= "1101101"; -- 2
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -72,7 +72,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux2 = '0' and aux3 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux1:= '1'; 
-										outcoder <= "0000110"; -- 3
+										outcoder <= "1111001"; -- 3
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -82,7 +82,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux2 = '0' and aux3 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux1:= '1';
-										outcoder <= "0001000"; -- A
+										outcoder <= "1110111"; -- A
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -102,7 +102,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux3 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux2:= '1'; 
-										outcoder <= "1001100"; -- 4
+										outcoder <= "0110011"; -- 4
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -112,7 +112,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux3 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux2:= '1'; 
-										outcoder <= "0100100"; -- 5
+										outcoder <= "1011011"; -- 5
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -122,7 +122,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux3 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux2:= '1'; 
-										outcoder <= "0100000"; -- 6
+										outcoder <= "1011111"; -- 6
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -132,7 +132,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux3 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux2:= '1'; 
-										outcoder <= "1100000"; -- b
+										outcoder <= "0011111"; -- b
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -152,7 +152,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux2 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux3:= '1';  
-										outcoder <= "0001111"; -- 7
+										outcoder <= "1110000"; -- 7
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -162,7 +162,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux2 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux3:= '1'; 
-										outcoder <= "0000000"; -- 8
+										outcoder <= "1111111"; -- 8
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -172,7 +172,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux2 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux3:= '1';  
-										outcoder <= "0000100"; -- 9
+										outcoder <= "1111011"; -- 9
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -182,7 +182,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux2 = '0' and aux4 = '0') then
 										aux:= '1';
 										aux3:= '1'; 
-										outcoder <= "0110001"; -- C
+										outcoder <= "1001110"; -- C
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -202,7 +202,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux2 = '0' and aux3 = '0') then
 										aux:= '1';
 										aux4:= '1'; 
-										outcoder <= "0011100"; -- *
+										outcoder <= "1100011"; -- *
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -212,7 +212,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux2 = '0' and aux3 = '0') then
 										aux:= '1';
 										aux4:= '1'; 
-										outcoder <= "0000001"; -- 0
+										outcoder <= "1111110"; -- 0
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -222,7 +222,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux2 = '0' and aux3 = '0') then
 										aux:= '1';
 										aux4:= '1'; 
-										outcoder <= "1100010"; -- +
+										outcoder <= "0011101"; -- +
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else
@@ -232,7 +232,7 @@ scontrol <= (enc)&(rwc);
 									if(aux = '0' and aux1 = '0' and aux2 = '0' and aux3 = '0') then
 										aux:= '1';
 										aux4:= '1'; 
-										outcoder <= "1111110"; -- -
+										outcoder <= "0000001"; -- -
 										outcontc <= outcontc + '1';
 										outflagc <= '1';
 									else

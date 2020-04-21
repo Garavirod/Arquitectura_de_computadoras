@@ -1,6 +1,6 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Wed Mar 20 17:16:54 2019 *
+NOTE DATE CREATED: Tue Apr 21 17:21:39 2020 *
 NOTE DESIGN NAME: topram00 *
 NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
 NOTE PIN ASSIGNMENTS *
@@ -32,10 +32,10 @@ NOTE PINS outrLED0[3] : 99 : out *
 NOTE PINS outrLED0[2] : 100 : out *
 NOTE PINS outrLED0[1] : 104 : out *
 NOTE PINS outrLED0[0] : 105 : out *
-NOTE PINS outr0[3] : 96 : out *
-NOTE PINS outr0[2] : 95 : out *
-NOTE PINS outr0[1] : 98 : out *
-NOTE PINS outr0[0] : 97 : out *
+NOTE PINS outr0[3] : 97 : out *
+NOTE PINS outr0[2] : 98 : out *
+NOTE PINS outr0[1] : 95 : out *
+NOTE PINS outr0[0] : 96 : out *
 NOTE PINS inkey0[3] : 91 : in *
 NOTE PINS inkey0[2] : 92 : in *
 NOTE PINS inkey0[1] : 93 : in *

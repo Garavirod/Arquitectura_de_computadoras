@@ -16,7 +16,7 @@ I/O cells:       30
                                 INV        1       100.0
                                  OB       20       100.0
                            OFS1P3DX        7       100.0
-                           ORCALUT4       96       100.0
+                           ORCALUT4       92       100.0
                                OSCH        1       100.0
                                 PUR        1       100.0
                                 VHI        4       100.0
@@ -28,7 +28,7 @@ SUB MODULES
                               osc00        1       100.0
                            topdiv00        1       100.0
                             
-                         TOTAL           193           
+                         TOTAL           189           
 ----------------------------------------------------------------------
 Report for cell coder00.netlist
      Instance path:  K02
@@ -36,11 +36,11 @@ Report for cell coder00.netlist
                                cell       count    Res Usage(%)
                             FD1P3AX        3       100.0
                             FD1S3AX        2        66.7
-                           ORCALUT4       53        55.2
+                           ORCALUT4       49        53.3
                                 VHI        1        25.0
                                 VLO        1        25.0
                             
-                         TOTAL            60           
+                         TOTAL            56           
 ----------------------------------------------------------------------
 Report for cell contring00.netlist
      Instance path:  K01
@@ -59,7 +59,7 @@ Report for cell topdiv00.netlist
                               CCU2D       11       100.0
                             FD1S3AX        1        33.3
                             FD1S3IX       21        84.0
-                           ORCALUT4       43        44.8
+                           ORCALUT4       43        46.7
                                OSCH        1       100.0
                                 VHI        1        25.0
                                 VLO        2        50.0
@@ -76,7 +76,7 @@ Report for cell div00.netlist
                               CCU2D       11       100.0
                             FD1S3AX        1        33.3
                             FD1S3IX       21        84.0
-                           ORCALUT4       43        44.8
+                           ORCALUT4       43        46.7
                                 VHI        1        25.0
                                 VLO        1        25.0
                             

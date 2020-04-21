@@ -1,0 +1,5 @@
+#Start recording tcl command: 3/11/2020 10:49:30
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/key00/key00; Project name: key00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/key00/key00/key00.ldf"
+prj_run Export -impl key0 -task Jedecgen
+#Stop recording: 3/11/2020 10:55:33

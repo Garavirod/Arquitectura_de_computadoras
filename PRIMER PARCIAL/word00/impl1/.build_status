@@ -6,21 +6,21 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1582739349"/>
+            <Task name="Jedecgen" build_result="0" update_result="2" update_time="1582739349"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1582739323">
-            <Task name="Map" build_result="2" update_result="0" update_time="1582739323"/>
+        <Milestone name="Map" build_result="0" build_time="1582739323">
+            <Task name="Map" build_result="0" update_result="2" update_time="1582739323"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1582739342">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1582739342"/>
+        <Milestone name="PAR" build_result="0" build_time="1582739342">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1582739342"/>
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1582309596">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1582309596"/>
+        <Milestone name="Synthesis" build_result="0" build_time="1582309596">
+            <Task name="Synplify_Synthesis" build_result="0" update_result="2" update_time="1582309596"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
             <Task name="HDLE" build_result="2" update_result="0" update_time="1582845150"/>
@@ -29,8 +29,8 @@
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1582309597">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1582309597"/>
+        <Milestone name="Translate" build_result="0" build_time="1582309597">
+            <Task name="Translate" build_result="0" update_result="2" update_time="1582309597"/>
         </Milestone>
         <Report name="word00_impl1.bgn" last_build_time="1582739350" last_build_size="4301"/>
         <Report name="word00_impl1.edi" last_build_time="1582309594" last_build_size="75347"/>

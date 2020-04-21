@@ -1,32 +1,32 @@
 #--  Synopsys, Inc.
-#--  Version M-2017.03L-SP1-1
-#--  Project file C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram0\scratchproject.prs
+#--  Version N-2018.03L-SP1-1
+#--  Project file C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0\scratchproject.prs
 
 #project files
-add_file -vhdl -lib work "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/topdiv00VHDL/div00.vhdl"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/topdiv00VHDL/osc00.vhdl"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/topdiv00VHDL/packagediv00.vhdl"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/contring00.vhdl"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/coder00.vhdl"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/ram00.vhdl"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/mux00.vhdl"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/contRead00.vhdl"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/packageram00.vhdl"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/topdiv00VHDL/topdiv00.vhdl"
-add_file -vhdl -lib work "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/topram00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/cae_library/synthesis/vhdl/machxo2.vhd"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/div00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/osc00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/packagediv00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/contring00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/coder00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/ram00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/mux00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/contRead00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/packageram00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/topdiv00.vhdl"
+add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/topram00.vhdl"
 
 
 
 #implementation: "ram0"
-impl -add "C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\ram0" -type fpga
+impl -add C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\ram0 -type fpga
 
 #
 #implementation attributes
 
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
-set_option -include_path {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/ram0/}
+set_option -include_path {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/ram0/}
 
 #device options
 set_option -technology MACHXO2
@@ -79,8 +79,8 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/ram0/ram00_ram0.edi"
+project -result_file "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/ram0/ram00_ram0.edi"
 
 #set log file 
-set_option log_file "C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/ram0/ram00_ram0.srf" 
+set_option log_file "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/ram0/ram00_ram0.srf" 
 impl -active "ram0"

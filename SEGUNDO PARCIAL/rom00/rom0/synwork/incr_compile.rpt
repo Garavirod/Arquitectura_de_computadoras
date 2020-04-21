@@ -1,0 +1,61 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-P12ICFP
+
+Implementation : rom0
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+21       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rom00\rom00.vhdl (2019-03-19 11:40:39, 2020-04-21 16:55:55)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+6        work.rom00.rom0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rom00\rom00.vhdl (2019-03-19 11:40:39, 2020-04-21 16:55:55) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 18
+FID:  path (timestamp)
+19       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rom00\contRead00.vhdl (2019-03-20 11:25:14)
+20       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rom00\packagerom00.vhdl (2019-03-20 10:50:57)
+22       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\rom00\toprom00.vhdl (2019-03-20 11:01:07)
+23       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl (2019-02-19 20:01:42)
+24       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl (2019-02-19 19:04:48)
+25       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\packagediv00.vhdl (2019-02-19 20:07:20)
+26       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\topdiv00.vhdl (2019-03-11 22:51:13)
+27       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 01:32:12)
+28       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 09:08:08)
+29       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 09:07:44)
+30       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 09:07:44)
+31       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 16:01:20)
+32       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 09:07:44)
+33       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 09:07:44)
+34       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 09:07:44)
+35       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 09:07:44)
+36       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 09:07:44)
+37       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 09:07:44)
+
+*******************************************************************
+Unchanged modules: 10
+MID:  lib.cell.view
+0        work.contread00.contread0
+1        work.contread00.vhdl
+2        work.div00.div0
+3        work.div00.vhdl
+4        work.osc00.osc0
+5        work.osc00.vhdl
+8        work.topdiv00.topdiv0
+9        work.topdiv00.vhdl
+10       work.toprom00.toprom0
+11       work.toprom00.vhdl

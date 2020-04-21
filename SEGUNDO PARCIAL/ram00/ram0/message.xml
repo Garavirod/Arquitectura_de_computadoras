@@ -36,9 +36,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\contring00.vhdl&quot;:19:2:19:3|Pruning register bits 2 to 0 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\contring00.vhdl&quot;:19:2:19:3|Pruning register bits 2 to 0 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\ram00\contring00.vhdl</Navigation>
+            <Navigation>C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\ram00\contring00.vhdl</Navigation>
             <Navigation>19</Navigation>
             <Navigation>2</Navigation>
             <Navigation>19</Navigation>
@@ -48,9 +48,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CD326 :&quot;C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\osc00.vhdl&quot;:23:1:23:8|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
+            <Dynamic>CD326 :&quot;C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl&quot;:23:1:23:8|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
             <Navigation>CD326</Navigation>
-            <Navigation>C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\osc00.vhdl</Navigation>
+            <Navigation>C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl</Navigation>
             <Navigation>23</Navigation>
             <Navigation>1</Navigation>
             <Navigation>23</Navigation>
@@ -67,9 +67,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\topdiv00vhdl\div00.vhdl&quot;:20:2:20:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including RA00.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Dynamic>MT529 :&quot;c:\lscc\diamond\3.11_x64\bin\nt64\arqui\practicas\topdiv00vhdl\div00.vhdl&quot;:20:2:20:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including RA00.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
             <Navigation>MT529</Navigation>
-            <Navigation>c:\users\atzir\documents\6 semestre\arqui\proyectos arqui\proyectos\topdiv00vhdl\div00.vhdl</Navigation>
+            <Navigation>c:\lscc\diamond\3.11_x64\bin\nt64\arqui\practicas\topdiv00vhdl\div00.vhdl</Navigation>
             <Navigation>20</Navigation>
             <Navigation>2</Navigation>
             <Navigation>20</Navigation>
@@ -79,9 +79,9 @@
         <Message>
             <ID>2019993</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:RA00.D00.osc_int&quot;</Dynamic>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net RA00.D00.sclk.</Dynamic>
             <Navigation>MT420</Navigation>
-            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:RA00.D00.osc_int&quot;</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net RA00.D00.sclk.</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

@@ -42,25 +42,26 @@ set_option -update_models_cp 0
 set_option -resolve_multiple_driver 0
 
 
+
 #-- add_file options
-add_file -vhdl {C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/topdiv00VHDL/div00.vhdl}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/topdiv00VHDL/osc00.vhdl}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/topdiv00VHDL/packagediv00.vhdl}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/topdiv00VHDL/topdiv00.vhdl}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/contring00.vhdl}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/coder00.vhdl}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/ram00.vhdl}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/mux00.vhdl}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/contRead00.vhdl}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/packageram00.vhdl}
-add_file -vhdl -lib "work" {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/topram00.vhdl}
+add_file -vhdl {C:/lscc/diamond/3.11_x64/cae_library/synthesis/vhdl/machxo2.vhd}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/div00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/osc00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/packagediv00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/topdiv00VHDL/topdiv00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/contring00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/coder00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/ram00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/mux00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/contRead00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/packageram00.vhdl}
+add_file -vhdl -lib "work" {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/topram00.vhdl}
 
 #-- top module name
 set_option -top_module topram00
 
 #-- set result format/file last
-project -result_file {C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/ram00/ram0/ram00_ram0.edi}
+project -result_file {C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/ram00/ram0/ram00_ram0.edi}
 
 #-- error message log file
 project -log_file {ram00_ram0.srf}
