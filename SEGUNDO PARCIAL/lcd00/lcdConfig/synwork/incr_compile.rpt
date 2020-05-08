@@ -1,0 +1,70 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-P12ICFP
+
+Implementation : lcdConfig
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+22       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd00\lcdConfig00.vhdl (2020-05-08 12:11:29, 2020-05-08 12:19:50)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+2        work.lcdconfig00.lcdconfig0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd00\lcdConfig00.vhdl (2020-05-08 12:11:29, 2020-05-08 12:19:50) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 21
+FID:  path (timestamp)
+23       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd00\lcdContData00.vhdl (2019-04-03 11:13:47)
+24       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd00\lcdData00.vhdl (2019-04-03 11:14:13)
+25       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd00\lcdcontconfig00.vhdl (2019-04-03 11:13:12)
+26       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd00\lcdmux00.vhdl (2019-04-03 11:14:56)
+27       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd00\packagelcd00.vhdl (2019-04-03 11:16:01)
+28       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd00\toplcd00.vhdl (2019-04-03 11:16:24)
+29       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl (2019-02-19 20:01:42)
+30       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl (2019-02-19 19:04:48)
+31       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\packagediv00.vhdl (2019-02-19 20:07:20)
+32       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\topdiv00.vhdl (2019-03-11 22:51:13)
+33       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 01:32:12)
+34       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 09:08:08)
+35       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 09:07:44)
+36       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 09:07:44)
+37       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 16:01:20)
+38       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 09:07:44)
+39       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 09:07:44)
+40       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 09:07:44)
+41       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 09:07:44)
+42       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 09:07:44)
+43       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 09:07:44)
+
+*******************************************************************
+Unchanged modules: 16
+MID:  lib.cell.view
+0        work.div00.div0
+1        work.div00.vhdl
+4        work.lcdcontconfig00.lcdcontconfig0
+5        work.lcdcontconfig00.vhdl
+6        work.lcdcontdata00.lcdcontdata0
+7        work.lcdcontdata00.vhdl
+8        work.lcddata00.lcddata0
+9        work.lcddata00.vhdl
+10       work.lcdmux00.lcdmux0
+11       work.lcdmux00.vhdl
+12       work.osc00.osc0
+13       work.osc00.vhdl
+14       work.topdiv00.topdiv0
+15       work.topdiv00.vhdl
+16       work.toplcd00.toplcd0
+17       work.toplcd00.vhdl

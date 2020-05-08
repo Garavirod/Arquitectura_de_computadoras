@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
-<ispXCF version="3.9.0">
+<ispXCF version="3.11.0">
 	<Comment></Comment>
 	<Chain>
 		<Comm>JTAG</Comm>
@@ -19,9 +19,9 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/rom00/rom0/rom00_rom0.jed</File>
-			<FileTime>03/20/19 11:25:36</FileTime>
-			<JedecChecksum>0x6AA0</JedecChecksum>
+			<File>C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/SEGUNDO PARCIAL/rom00/rom0/rom00_rom0.jed</File>
+			<FileTime>04/21/20 16:57:07</FileTime>
+			<JedecChecksum>0x528D</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -47,10 +47,6 @@
 	<CableOptions>
 		<CableName>USB2</CableName>
 		<PortAdd>FTUSB-0</PortAdd>
-		<USBID>Lattice FTUSB Interface Cable A Location 0000 Serial A</USBID>
-		<JTAGPinSetting>
-			TRST	ABSENT;
-			ISPEN	ABSENT;
-		</JTAGPinSetting>
+		<USBID>Lattice FTUSB Interface Cable A Location 0000</USBID>
 	</CableOptions>
 </ispXCF>

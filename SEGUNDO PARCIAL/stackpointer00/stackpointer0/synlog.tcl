@@ -1,0 +1,1 @@
+run_tcl -fg stackpointer00_stackpointer0_synplify.tcl

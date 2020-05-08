@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/28/2020 10:22:49
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/lcd00; Project name: lcd00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/lcd00/lcd00.ldf"
+prj_project close
+#Stop recording: 4/28/2020 14:00:52

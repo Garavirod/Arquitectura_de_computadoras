@@ -1,0 +1,21 @@
+#Start recording tcl command: 4/29/2020 09:36:55
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/ARQUI_AMBAR/Arqui-mr/lcd02; Project name: lcd02
+C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/SEGUNDO PARCIAL/stackpointer00
+stackpointer00
+#Start recording tcl command: 4/29/2020 10:02:40
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/SEGUNDO PARCIAL/stackpointer00; Project name: stackpointer00
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/ARQUI_AMBAR/Arqui-mr/lcd02/lcd02.ldf"
+pgr_project open "C:/lscc/diamond/3.11_x64/bin/nt64/ARQUI_AMBAR/Arqui-mr/lcd02/lcd2/lcd2.xcf"
+pgr_program run
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program set -port FTUSB-0
+pgr_program run
+prj_run Export -impl lcd2 -task Jedecgen
+pgr_program run
+prj_run Export -impl lcd2 -task Jedecgen
+pgr_program run
+pgr_project save "C:/lscc/diamond/3.11_x64/bin/nt64/ARQUI_AMBAR/Arqui-mr/lcd02/lcd2/lcd2.xcf"
+prj_project close
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/SEGUNDO PARCIAL/stackpointer00/stackpointer00.ldf"
+#Stop recording: 4/29/2020 10:02:41

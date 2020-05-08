@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topStack00  -multisrs  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\stackpointer0\synwork\stackpointer00_stackpointer0_comp.srs  -osyn  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\stackpointer0\synwork\stackpointer00_stackpointer0_mult.srs  -log  C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\stackpointer0\synlog\stackpointer00_stackpointer0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe -link -top topStack00 -multisrs ..\synwork\stackpointer00_stackpointer0_comp.srs -osyn ..\synwork\stackpointer00_stackpointer0_mult.srs -log ..\synlog\stackpointer00_stackpointer0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\stackpointer00_stackpointer0_comp.srs|io:i|time:1588103373|size:15600|exec:0|csum:6C965DD4B7E2C9EF8BD141D726DA907F
+file:..\synwork\stackpointer00_stackpointer0_mult.srs|io:o|time:1588103375|size:4624|exec:0|csum:
+file:..\synlog\stackpointer00_stackpointer0_multi_srs_gen.srr|io:o|time:1588103375|size:1330|exec:0|csum:
+file:..\..\..\..\..\..\..\synpbase\bin64\syn_nfilter.exe|io:i|time:1554132152|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

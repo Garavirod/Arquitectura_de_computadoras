@@ -1,0 +1,4 @@
+@W: CD326 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl":23:1:23:8|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CL260 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdConfig00.vhd":23:4:23:5|Pruning register bit 6 of commandcf(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdContData00.vhd":25:4:25:5|Removing register 'RWcd' because it is only assigned 0 or its original value.
+

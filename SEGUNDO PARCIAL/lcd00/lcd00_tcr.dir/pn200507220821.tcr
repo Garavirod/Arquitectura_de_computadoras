@@ -1,0 +1,53 @@
+#Start recording tcl command: 5/7/2020 19:20:25
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/lcd00; Project name: lcd00
+C:/lscc/diamond/3.11_x64/bin/nt64/ARQUI_AMBAR/Arqui-mr/lcd03
+lcd03
+#Start recording tcl command: 5/7/2020 22:08:18
+#Project Location: C:/lscc/diamond/3.11_x64/bin/nt64/ARQUI_AMBAR/Arqui-mr/lcd03; Project name: lcd03
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/lcd00/lcd00.ldf"
+pgr_project close
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_project open "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/lcd00/lcdConfig/lcdConfig.xcf"
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+prj_run Export -impl lcdConfig -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+pgr_project save "C:/lscc/diamond/3.11_x64/bin/nt64/Arqui/Practicas/lcd00/lcdConfig/lcdConfig.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/lscc/diamond/3.11_x64/bin/nt64/ARQUI_AMBAR/Arqui-mr/lcd03/lcd03.ldf"
+#Stop recording: 5/7/2020 22:08:21

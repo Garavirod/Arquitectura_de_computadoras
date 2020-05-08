@@ -1,0 +1,31 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\toplcd00.vhd":7:7:7:14|Top entity is set to toplcd00.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\toplcd00.vhd":7:7:7:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdmux00.vhd":6:7:6:14|Synthesizing work.lcdmux00.lcdmux0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdData00.vhd":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdContData00.vhd":8:7:8:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdContData00.vhd":40:20:40:28|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdContData00.vhd":56:6:56:14|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdContData00.vhd":71:7:71:15|Removing redundant assignment.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdConfig00.vhd":6:7:6:17|Synthesizing work.lcdconfig00.lcdconfig0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdContConfig00.vhd":8:7:8:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdContConfig00.vhd":32:5:32:13|Removing redundant assignment.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":36:6:36:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":44:6:44:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":52:6:52:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":60:6:60:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":68:6:68:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":76:6:76:11|Removing redundant assignment.
+@N: CD364 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl":84:6:84:11|Removing redundant assignment.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdConfig00.vhd":23:4:23:5|Register bit RScf is always 0.
+@N: CL189 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdConfig00.vhd":23:4:23:5|Register bit RWcf is always 0.
+@N: CL189 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdConfig00.vhd":23:4:23:5|Register bit commandcf(6) is always 0.
+@N: CL189 :"C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\lcd2renglones00\lcdContData00.vhd":25:4:25:5|Register bit outFlagcd is always 0.
+@N|Running in 64-bit mode
+

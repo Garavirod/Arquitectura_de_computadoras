@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "lcd00_lcdConfig.log"
+-o "lcd00_lcdConfig.csv"
+-pr "lcd00_lcdConfig.prf"

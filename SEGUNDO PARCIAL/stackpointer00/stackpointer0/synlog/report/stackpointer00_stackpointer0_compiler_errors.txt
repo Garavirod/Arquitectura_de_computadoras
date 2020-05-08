@@ -1,0 +1,2 @@
+@E: CD326 :"E:\Project3CM2MachX02\stackpointer00\topStack00.vhd":36:1:36:4|Port indiv1 of entity work.topdiv00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

@@ -1,0 +1,102 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-P12ICFP
+
+Implementation : stackpointer0
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 44
+FID:  path (prevtimestamp, timestamp)
+34       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\stackpointer00\coderStack00.vhd (2019-05-08 11:51:14, N/A)
+35       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\stackpointer00\contring00.vhd (2018-11-22 12:32:46, N/A)
+36       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\stackpointer00\muxStack00.vhd (2018-11-22 12:32:52, N/A)
+37       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\stackpointer00\packageStack00.vhd (2019-05-08 11:54:00, N/A)
+38       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\stackpointer00\stack00.vhd (2018-11-22 16:05:34, N/A)
+39       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\stackpointer00\stackPointer00.vhd (2018-11-22 16:06:42, N/A)
+40       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\stackpointer00\topStack00.vhd (2018-11-22 12:32:40, N/A)
+41       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\div00.vhdl (2019-02-19 20:01:42, N/A)
+42       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\osc00.vhdl (2019-02-19 19:04:48, N/A)
+43       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\packagediv00.vhdl (2019-02-19 20:07:20, N/A)
+44       C:\Users\atzir\Documents\6 semestre\arqui\Proyectos Arqui\Proyectos\topdiv00VHDL\topdiv00.vhdl (2019-03-11 22:51:13, N/A)
+11       C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd (2017-04-27 17:11:44, N/A)
+12       C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd (2017-08-05 02:23:36, N/A)
+14       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\arith.vhd (2017-08-05 01:03:44, N/A)
+15       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\hyperents.vhd (2017-08-05 01:03:44, N/A)
+16       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\location.map (2017-08-05 07:43:28, N/A)
+17       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\numeric.vhd (2017-08-05 01:03:44, N/A)
+18       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2017-08-05 01:03:44, N/A)
+19       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd (2017-08-05 01:03:44, N/A)
+20       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std1164.vhd (2017-08-05 01:03:44, N/A)
+21       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\umr_capim.vhd (2017-08-05 01:03:44, N/A)
+22       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\unsigned.vhd (2017-08-05 01:03:44, N/A)
+45       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\coderStack00.vhd (N/A, 2020-04-28 14:49:13)
+46       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\contring00.vhd (N/A, 2018-11-22 12:32:46)
+47       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\muxStack00.vhd (N/A, 2018-11-22 12:32:52)
+48       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\packageStack00.vhd (N/A, 2019-05-08 11:54:00)
+49       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\stack00.vhd (N/A, 2018-11-22 16:05:34)
+50       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\stackPointer00.vhd (N/A, 2018-11-22 16:06:42)
+51       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\topStack00.vhd (N/A, 2018-11-22 12:32:40)
+52       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl (N/A, 2019-02-19 20:01:42)
+53       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl (N/A, 2019-02-19 19:04:48)
+54       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\packagediv00.vhdl (N/A, 2019-02-19 20:07:20)
+55       C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\topdiv00.vhdl (N/A, 2019-03-11 22:51:13)
+56       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (N/A, 2018-11-15 01:32:12)
+57       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (N/A, 2019-04-01 09:08:08)
+58       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (N/A, 2019-04-01 09:07:44)
+59       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (N/A, 2019-04-01 09:07:44)
+60       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (N/A, 2019-04-01 16:01:20)
+61       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (N/A, 2019-04-01 09:07:44)
+62       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (N/A, 2019-04-01 09:07:44)
+63       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (N/A, 2019-04-01 09:07:44)
+64       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (N/A, 2019-04-01 09:07:44)
+65       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (N/A, 2019-04-01 09:07:44)
+66       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (N/A, 2019-04-01 09:07:44)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 9
+MID:  lib.cell.view
+0        work.coderstack00.coderstack0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\coderStack00.vhd (N/A, 2020-04-28 14:49:13) <-- (architecture and entity definition)
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\topStack00.vhd (N/A, 2018-11-22 12:32:40) <-- (may instantiate this module)
+2        work.contring00.contring0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\contring00.vhd (N/A, 2018-11-22 12:32:46) <-- (architecture and entity definition)
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\topStack00.vhd (N/A, 2018-11-22 12:32:40) <-- (may instantiate this module)
+4        work.div00.div0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\topStack00.vhd (N/A, 2018-11-22 12:32:40) <-- (may instantiate this module)
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\div00.vhdl (N/A, 2019-02-19 20:01:42) <-- (architecture and entity definition)
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\topdiv00.vhdl (N/A, 2019-03-11 22:51:13) <-- (may instantiate this module)
+6        work.muxstack00.muxstack0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\muxStack00.vhd (N/A, 2018-11-22 12:32:52) <-- (architecture and entity definition)
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\topStack00.vhd (N/A, 2018-11-22 12:32:40) <-- (may instantiate this module)
+8        work.osc00.osc0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\topStack00.vhd (N/A, 2018-11-22 12:32:40) <-- (may instantiate this module)
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\osc00.vhdl (N/A, 2019-02-19 19:04:48) <-- (architecture and entity definition)
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\topdiv00.vhdl (N/A, 2019-03-11 22:51:13) <-- (may instantiate this module)
+10       work.stack00.stack0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\stack00.vhd (N/A, 2018-11-22 16:05:34) <-- (architecture and entity definition)
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\topStack00.vhd (N/A, 2018-11-22 12:32:40) <-- (may instantiate this module)
+12       work.stackpointer00.stackpointer0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\stackPointer00.vhd (N/A, 2018-11-22 16:06:42) <-- (architecture and entity definition)
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\topStack00.vhd (N/A, 2018-11-22 12:32:40) <-- (may instantiate this module)
+14       work.topdiv00.topdiv0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\topStack00.vhd (N/A, 2018-11-22 12:32:40) <-- (may instantiate this module)
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\topdiv00VHDL\topdiv00.vhdl (N/A, 2019-03-11 22:51:13) <-- (architecture and entity definition)
+16       work.topstack00.topstack0 may have changed because the following files changed:
+                        C:\lscc\diamond\3.11_x64\bin\nt64\Arqui\Practicas\stackpointer00\topStack00.vhd (N/A, 2018-11-22 12:32:40) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

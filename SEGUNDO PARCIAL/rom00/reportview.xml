@@ -3,7 +3,7 @@
 <ReportView version="2.0">
     <Implement name="rom0">
         <ToolReport id="tooldec" path="" status="0"/>
-        <ToolReport id="toolhle_genhierarchy" path="C:/Users/atzir/Documents/6 semestre/arqui/Proyectos Arqui/Proyectos/rom00/rom0/hdla_gen_hierarchy.html" status="1"/>
+        <ToolReport id="toolhle_genhierarchy" path="C:/lscc/diamond/3.11_x64/bin/nt64/Arquitectura_de_computadoras/SEGUNDO PARCIAL/rom00/rom0/hdla_gen_hierarchy.html" status="1"/>
         <ToolReport id="toolpio" path="" status="2"/>
         <ToolReport id="toolsso" path="" status="2"/>
     </Implement>
